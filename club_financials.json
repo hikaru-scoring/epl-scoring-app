@@ -26,13 +26,14 @@
     "title_sponsor_value_m": 50,
     "social_media_followers_m": 120,
     "manager_changes_3yr": 1,
-    "prev_season_position": 3,
+    "prev_season_position": 1,
     "key_signings": [
-      "Federico Chiesa",
-      "Giorgi Mamardashvili"
+      "Martin Zubimendi",
+      "Nico Williams"
     ],
     "key_departures": [
-      "Mohamed Salah"
+      "Mohamed Salah",
+      "Virgil van Dijk"
     ],
     "squad_avg_age": 26.2
   },
@@ -65,13 +66,12 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 2,
     "key_signings": [
-      "Riccardo Calafiori",
-      "Mikel Merino",
-      "Raheem Sterling"
+      "Viktor Gyokeres",
+      "Marc Guehi"
     ],
     "key_departures": [
-      "Emile Smith Rowe",
-      "Fabio Vieira"
+      "Eddie Nketiah",
+      "Reiss Nelson"
     ],
     "squad_avg_age": 25.8
   },
@@ -102,14 +102,14 @@
     "title_sponsor_value_m": 67,
     "social_media_followers_m": 110,
     "manager_changes_3yr": 0,
-    "prev_season_position": 1,
+    "prev_season_position": 3,
     "key_signings": [
-      "Savinho",
-      "Ilkay Gundogan"
+      "Florian Wirtz",
+      "Ederson (replacement)"
     ],
     "key_departures": [
-      "Julian Alvarez",
-      "Joao Cancelo"
+      "Kevin De Bruyne",
+      "Kyle Walker"
     ],
     "squad_avg_age": 27.1
   },
@@ -140,15 +140,14 @@
     "title_sponsor_value_m": 40,
     "social_media_followers_m": 95,
     "manager_changes_3yr": 4,
-    "prev_season_position": 6,
+    "prev_season_position": 4,
     "key_signings": [
-      "Pedro Neto",
-      "Joao Felix",
-      "Jadon Sancho"
+      "Jhon Duran",
+      "Michael Olise"
     ],
     "key_departures": [
-      "Conor Gallagher",
-      "Ian Maatsen"
+      "Raheem Sterling",
+      "Conor Gallagher"
     ],
     "squad_avg_age": 24.5
   },
@@ -179,13 +178,14 @@
     "title_sponsor_value_m": 25,
     "social_media_followers_m": 30,
     "manager_changes_3yr": 0,
-    "prev_season_position": 7,
+    "prev_season_position": 5,
     "key_signings": [
-      "Lewis Hall",
-      "Lloyd Kelly"
+      "Marc Guehi",
+      "Antoine Semenyo"
     ],
     "key_departures": [
-      "Elliot Anderson"
+      "Miguel Almiron",
+      "Callum Wilson"
     ],
     "squad_avg_age": 26.5
   },
@@ -215,14 +215,14 @@
     "title_sponsor_value_m": 20,
     "social_media_followers_m": 15,
     "manager_changes_3yr": 1,
-    "prev_season_position": 4,
+    "prev_season_position": 6,
     "key_signings": [
-      "Amadou Onana",
-      "Ian Maatsen"
+      "Joao Felix",
+      "Nico Williams"
     ],
     "key_departures": [
-      "Douglas Luiz",
-      "Moussa Diaby"
+      "Jhon Duran",
+      "Leon Bailey"
     ],
     "squad_avg_age": 26.0
   },
@@ -252,12 +252,13 @@
     "title_sponsor_value_m": 5,
     "social_media_followers_m": 8,
     "manager_changes_3yr": 1,
-    "prev_season_position": 17,
+    "prev_season_position": 7,
     "key_signings": [
-      "Elliot Anderson",
-      "Nikola Milenkovic"
+      "Carlos Alcaraz",
+      "Santiago Gimenez"
     ],
     "key_departures": [
+      "Brennan Johnson",
       "Moussa Niakhate"
     ],
     "squad_avg_age": 26.3
@@ -288,14 +289,14 @@
     "title_sponsor_value_m": 15,
     "social_media_followers_m": 8,
     "manager_changes_3yr": 3,
-    "prev_season_position": 11,
+    "prev_season_position": 8,
     "key_signings": [
-      "Yankuba Minteh",
+      "Brajan Gruda",
       "Mats Wieffer"
     ],
     "key_departures": [
-      "Alexis Mac Allister",
-      "Kaoru Mitoma"
+      "Evan Ferguson (loan)",
+      "Pascal Gross"
     ],
     "squad_avg_age": 25.0
   },
@@ -324,13 +325,14 @@
     "title_sponsor_value_m": 8,
     "social_media_followers_m": 5,
     "manager_changes_3yr": 1,
-    "prev_season_position": 12,
+    "prev_season_position": 9,
     "key_signings": [
       "Dean Huijsen",
-      "Enes Unal"
+      "Milos Kerkez"
     ],
     "key_departures": [
-      "Dominic Solanke"
+      "Dominic Solanke",
+      "Lloyd Kelly"
     ],
     "squad_avg_age": 25.5
   },
@@ -360,13 +362,14 @@
     "title_sponsor_value_m": 10,
     "social_media_followers_m": 5,
     "manager_changes_3yr": 0,
-    "prev_season_position": 16,
+    "prev_season_position": 10,
     "key_signings": [
       "Igor Thiago",
       "Fabio Carvalho"
     ],
     "key_departures": [
-      "Ivan Toney"
+      "Ivan Toney",
+      "Said Benrahma"
     ],
     "squad_avg_age": 26.0
   },
@@ -396,13 +399,14 @@
     "title_sponsor_value_m": 8,
     "social_media_followers_m": 7,
     "manager_changes_3yr": 0,
-    "prev_season_position": 13,
+    "prev_season_position": 11,
     "key_signings": [
       "Emile Smith Rowe",
-      "Jorge Cuenca"
+      "Joachim Andersen"
     ],
     "key_departures": [
-      "Tosin Adarabioyo"
+      "Tosin Adarabioyo",
+      "Bobby De Cordova-Reid"
     ],
     "squad_avg_age": 26.8
   },
@@ -432,14 +436,14 @@
     "title_sponsor_value_m": 8,
     "social_media_followers_m": 8,
     "manager_changes_3yr": 1,
-    "prev_season_position": 10,
+    "prev_season_position": 12,
     "key_signings": [
-      "Ismaila Sarr",
-      "Daichi Kamada"
+      "Eddie Nketiah",
+      "Ismaila Sarr"
     ],
     "key_departures": [
       "Michael Olise",
-      "Joachim Andersen"
+      "Jordan Ayew"
     ],
     "squad_avg_age": 26.5
   },
@@ -469,10 +473,10 @@
     "title_sponsor_value_m": 12,
     "social_media_followers_m": 15,
     "manager_changes_3yr": 1,
-    "prev_season_position": 15,
+    "prev_season_position": 13,
     "key_signings": [
-      "Jake O'Brien",
-      "Iliman Ndiaye"
+      "Iliman Ndiaye",
+      "Jake O Brien"
     ],
     "key_departures": [
       "Amadou Onana",
@@ -506,11 +510,10 @@
     "title_sponsor_value_m": 15,
     "social_media_followers_m": 15,
     "manager_changes_3yr": 2,
-    "prev_season_position": 9,
+    "prev_season_position": 14,
     "key_signings": [
-      "Max Kilman",
-      "Crysencio Summerville",
-      "Niclas Fullkrug"
+      "Niclas Fullkrug",
+      "Crysencio Summerville"
     ],
     "key_departures": [
       "Declan Rice",
@@ -545,15 +548,15 @@
     "title_sponsor_value_m": 75,
     "social_media_followers_m": 200,
     "manager_changes_3yr": 3,
-    "prev_season_position": 8,
+    "prev_season_position": 15,
     "key_signings": [
       "Leny Yoro",
-      "Joshua Zirkzee",
-      "Manuel Ugarte"
+      "Manuel Ugarte",
+      "Joshua Zirkzee"
     ],
     "key_departures": [
-      "Raphael Varane",
-      "Anthony Martial"
+      "Mason Greenwood",
+      "Raphael Varane"
     ],
     "squad_avg_age": 25.5
   },
@@ -583,10 +586,10 @@
     "title_sponsor_value_m": 5,
     "social_media_followers_m": 10,
     "manager_changes_3yr": 3,
-    "prev_season_position": 14,
+    "prev_season_position": 16,
     "key_signings": [
       "Jorgen Strand Larsen",
-      "Andre"
+      "Tommy Doyle"
     ],
     "key_departures": [
       "Pedro Neto",
@@ -621,11 +624,10 @@
     "title_sponsor_value_m": 50,
     "social_media_followers_m": 55,
     "manager_changes_3yr": 2,
-    "prev_season_position": 5,
+    "prev_season_position": 17,
     "key_signings": [
       "Dominic Solanke",
-      "Wilson Odobert",
-      "Archie Gray"
+      "Wilson Odobert"
     ],
     "key_departures": [
       "Oliver Skipp",
@@ -662,10 +664,11 @@
     "prev_season_position": 0,
     "key_signings": [
       "Jobe Bellingham",
-      "Chris Rigg"
+      "Milan Aleksic"
     ],
     "key_departures": [
-      "Jack Clarke"
+      "Jack Clarke",
+      "Ross Stewart"
     ],
     "squad_avg_age": 24.5
   },
@@ -698,7 +701,7 @@
     "prev_season_position": 0,
     "key_signings": [
       "Largie Ramazani",
-      "Manor Solomon"
+      "Isaac Schmidt"
     ],
     "key_departures": [
       "Crysencio Summerville",
@@ -734,7 +737,7 @@
     "prev_season_position": 0,
     "key_signings": [
       "Luca Koleosho",
-      "Sander Berge"
+      "Josh Brownhill"
     ],
     "key_departures": [
       "Nathan Collins",
