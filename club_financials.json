@@ -28,12 +28,11 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 1,
     "key_signings": [
-      "Martin Zubimendi",
-      "Nico Williams"
+      "Omar Marmoush",
+      "Milos Kerkez"
     ],
     "key_departures": [
-      "Mohamed Salah",
-      "Virgil van Dijk"
+      "Darwin Nunez (loan)"
     ],
     "squad_avg_age": 26.2
   },
@@ -66,12 +65,12 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 2,
     "key_signings": [
-      "Viktor Gyokeres",
-      "Marc Guehi"
+      "Sverre Nypan",
+      "Randal Kolo Muani (loan)"
     ],
     "key_departures": [
-      "Eddie Nketiah",
-      "Reiss Nelson"
+      "Reiss Nelson (loan)",
+      "Nuno Tavares"
     ],
     "squad_avg_age": 25.8
   },
@@ -104,12 +103,13 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 3,
     "key_signings": [
-      "Florian Wirtz",
-      "Ederson (replacement)"
+      "Abdukodir Khusanov",
+      "Vitor Reis",
+      "Omar Marmoush"
     ],
     "key_departures": [
-      "Kevin De Bruyne",
-      "Kyle Walker"
+      "Joao Cancelo",
+      "Kalvin Phillips"
     ],
     "squad_avg_age": 27.1
   },
@@ -142,12 +142,12 @@
     "manager_changes_3yr": 4,
     "prev_season_position": 4,
     "key_signings": [
-      "Jhon Duran",
-      "Michael Olise"
+      "Tosin Adarabioyo",
+      "Kellyman"
     ],
     "key_departures": [
-      "Raheem Sterling",
-      "Conor Gallagher"
+      "Mykhailo Mudryk (suspended)",
+      "Armando Broja (loan)"
     ],
     "squad_avg_age": 24.5
   },
@@ -180,12 +180,12 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 5,
     "key_signings": [
-      "Marc Guehi",
-      "Antoine Semenyo"
+      "Lloyd Kelly",
+      "Lewis Hall (permanent)"
     ],
     "key_departures": [
-      "Miguel Almiron",
-      "Callum Wilson"
+      "Elliot Anderson",
+      "Ryan Fraser"
     ],
     "squad_avg_age": 26.5
   },
@@ -217,12 +217,12 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 6,
     "key_signings": [
-      "Joao Felix",
-      "Nico Williams"
+      "Donyell Malen",
+      "Andres Garcia"
     ],
     "key_departures": [
       "Jhon Duran",
-      "Leon Bailey"
+      "Cameron Archer"
     ],
     "squad_avg_age": 26.0
   },
@@ -254,12 +254,12 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 7,
     "key_signings": [
-      "Carlos Alcaraz",
-      "Santiago Gimenez"
+      "Jota Silva",
+      "Morato"
     ],
     "key_departures": [
-      "Brennan Johnson",
-      "Moussa Niakhate"
+      "Moussa Niakhate",
+      "Emmanuel Dennis"
     ],
     "squad_avg_age": 26.3
   },
@@ -291,12 +291,12 @@
     "manager_changes_3yr": 3,
     "prev_season_position": 8,
     "key_signings": [
-      "Brajan Gruda",
-      "Mats Wieffer"
+      "Diego Gomez",
+      "Tariq Lamptey (renewed)"
     ],
     "key_departures": [
-      "Evan Ferguson (loan)",
-      "Pascal Gross"
+      "Deniz Undav (sold)",
+      "Levi Colwill"
     ],
     "squad_avg_age": 25.0
   },
@@ -327,12 +327,11 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 9,
     "key_signings": [
-      "Dean Huijsen",
-      "Milos Kerkez"
+      "Julio Soler",
+      "Dean Huijsen"
     ],
     "key_departures": [
-      "Dominic Solanke",
-      "Lloyd Kelly"
+      "Marcos Senesi (loan)"
     ],
     "squad_avg_age": 25.5
   },
@@ -364,12 +363,11 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 10,
     "key_signings": [
-      "Igor Thiago",
-      "Fabio Carvalho"
+      "Fabio Carvalho (permanent)",
+      "Paris Lee"
     ],
     "key_departures": [
-      "Ivan Toney",
-      "Said Benrahma"
+      "Kristoffer Ajer"
     ],
     "squad_avg_age": 26.0
   },
@@ -401,11 +399,10 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 11,
     "key_signings": [
-      "Emile Smith Rowe",
-      "Joachim Andersen"
+      "Joachim Andersen",
+      "Sander Berge"
     ],
     "key_departures": [
-      "Tosin Adarabioyo",
       "Bobby De Cordova-Reid"
     ],
     "squad_avg_age": 26.8
@@ -438,12 +435,12 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 12,
     "key_signings": [
-      "Eddie Nketiah",
-      "Ismaila Sarr"
+      "Romain Esse",
+      "Trevoh Chalobah (loan)"
     ],
     "key_departures": [
-      "Michael Olise",
-      "Jordan Ayew"
+      "Jordan Ayew",
+      "James Tomkins"
     ],
     "squad_avg_age": 26.5
   },
@@ -475,12 +472,12 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 13,
     "key_signings": [
-      "Iliman Ndiaye",
+      "Armando Broja (loan)",
       "Jake O Brien"
     ],
     "key_departures": [
-      "Amadou Onana",
-      "Ben Godfrey"
+      "Neal Maupay",
+      "Mason Holgate"
     ],
     "squad_avg_age": 27.0
   },
@@ -512,12 +509,12 @@
     "manager_changes_3yr": 2,
     "prev_season_position": 14,
     "key_signings": [
-      "Niclas Fullkrug",
-      "Crysencio Summerville"
+      "Andre (from Fluminense)",
+      "Carlos Soler"
     ],
     "key_departures": [
-      "Declan Rice",
-      "Said Benrahma"
+      "Said Benrahma",
+      "Nayef Aguerd"
     ],
     "squad_avg_age": 27.2
   },
@@ -550,13 +547,12 @@
     "manager_changes_3yr": 3,
     "prev_season_position": 15,
     "key_signings": [
-      "Leny Yoro",
-      "Manuel Ugarte",
-      "Joshua Zirkzee"
+      "Patrick Dorgu",
+      "Lecce fullback"
     ],
     "key_departures": [
-      "Mason Greenwood",
-      "Raphael Varane"
+      "Marcus Rashford (loan)",
+      "Casemiro"
     ],
     "squad_avg_age": 25.5
   },
@@ -588,12 +584,12 @@
     "manager_changes_3yr": 3,
     "prev_season_position": 16,
     "key_signings": [
-      "Jorgen Strand Larsen",
-      "Tommy Doyle"
+      "Emmanuel Agbadou",
+      "Rodrigo Gomes"
     ],
     "key_departures": [
-      "Pedro Neto",
-      "Max Kilman"
+      "Hwang Hee-chan",
+      "Daniel Podence"
     ],
     "squad_avg_age": 26.5
   },
@@ -626,12 +622,12 @@
     "manager_changes_3yr": 2,
     "prev_season_position": 17,
     "key_signings": [
-      "Dominic Solanke",
-      "Wilson Odobert"
+      "Mathys Tel (loan)",
+      "Antonin Kinsky"
     ],
     "key_departures": [
-      "Oliver Skipp",
-      "Eric Dier"
+      "Giovani Lo Celso",
+      "Pierre-Emile Hojbjerg"
     ],
     "squad_avg_age": 25.8
   },
@@ -663,12 +659,11 @@
     "manager_changes_3yr": 2,
     "prev_season_position": 0,
     "key_signings": [
-      "Jobe Bellingham",
-      "Milan Aleksic"
+      "Milan Aleksic",
+      "Aaron Connolly"
     ],
     "key_departures": [
-      "Jack Clarke",
-      "Ross Stewart"
+      "Jack Clarke (sold to Ipswich)"
     ],
     "squad_avg_age": 24.5
   },
@@ -700,12 +695,12 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 0,
     "key_signings": [
-      "Largie Ramazani",
-      "Isaac Schmidt"
+      "Isaac Schmidt",
+      "Joe Rodon (permanent)"
     ],
     "key_departures": [
-      "Crysencio Summerville",
-      "Archie Gray"
+      "Georginio Rutter",
+      "Glen Kamara"
     ],
     "squad_avg_age": 25.5
   },
@@ -736,12 +731,12 @@
     "manager_changes_3yr": 2,
     "prev_season_position": 0,
     "key_signings": [
-      "Luca Koleosho",
-      "Josh Brownhill"
+      "Josh Brownhill (renewed)",
+      "Oliver Sonne"
     ],
     "key_departures": [
-      "Nathan Collins",
-      "James Trafford"
+      "Connor Roberts",
+      "Johann Berg Gudmundsson"
     ],
     "squad_avg_age": 26.0
   }
