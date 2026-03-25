@@ -1,0 +1,1012 @@
+{
+  "2020-2021": {
+    "Manchester City": {
+      "position": 1,
+      "points": 86,
+      "wins": 27,
+      "draws": 5,
+      "losses": 6,
+      "goals_for": 83,
+      "goals_against": 32,
+      "goal_difference": 51
+    },
+    "Manchester United": {
+      "position": 2,
+      "points": 74,
+      "wins": 21,
+      "draws": 11,
+      "losses": 6,
+      "goals_for": 73,
+      "goals_against": 44,
+      "goal_difference": 29
+    },
+    "Liverpool": {
+      "position": 3,
+      "points": 69,
+      "wins": 20,
+      "draws": 9,
+      "losses": 9,
+      "goals_for": 68,
+      "goals_against": 42,
+      "goal_difference": 26
+    },
+    "Chelsea": {
+      "position": 4,
+      "points": 67,
+      "wins": 19,
+      "draws": 10,
+      "losses": 9,
+      "goals_for": 58,
+      "goals_against": 36,
+      "goal_difference": 22
+    },
+    "Leicester City": {
+      "position": 5,
+      "points": 66,
+      "wins": 20,
+      "draws": 6,
+      "losses": 12,
+      "goals_for": 68,
+      "goals_against": 50,
+      "goal_difference": 18
+    },
+    "West Ham United": {
+      "position": 6,
+      "points": 65,
+      "wins": 19,
+      "draws": 8,
+      "losses": 11,
+      "goals_for": 62,
+      "goals_against": 47,
+      "goal_difference": 15
+    },
+    "Tottenham Hotspur": {
+      "position": 7,
+      "points": 62,
+      "wins": 18,
+      "draws": 8,
+      "losses": 12,
+      "goals_for": 68,
+      "goals_against": 45,
+      "goal_difference": 23
+    },
+    "Arsenal": {
+      "position": 8,
+      "points": 61,
+      "wins": 18,
+      "draws": 7,
+      "losses": 13,
+      "goals_for": 55,
+      "goals_against": 39,
+      "goal_difference": 16
+    },
+    "Leeds United": {
+      "position": 9,
+      "points": 59,
+      "wins": 18,
+      "draws": 5,
+      "losses": 15,
+      "goals_for": 62,
+      "goals_against": 54,
+      "goal_difference": 8
+    },
+    "Everton": {
+      "position": 10,
+      "points": 59,
+      "wins": 17,
+      "draws": 8,
+      "losses": 13,
+      "goals_for": 47,
+      "goals_against": 48,
+      "goal_difference": -1
+    },
+    "Aston Villa": {
+      "position": 11,
+      "points": 55,
+      "wins": 16,
+      "draws": 7,
+      "losses": 15,
+      "goals_for": 55,
+      "goals_against": 46,
+      "goal_difference": 9
+    },
+    "Newcastle United": {
+      "position": 12,
+      "points": 45,
+      "wins": 12,
+      "draws": 9,
+      "losses": 17,
+      "goals_for": 46,
+      "goals_against": 62,
+      "goal_difference": -16
+    },
+    "Wolverhampton Wanderers": {
+      "position": 13,
+      "points": 45,
+      "wins": 12,
+      "draws": 9,
+      "losses": 17,
+      "goals_for": 36,
+      "goals_against": 52,
+      "goal_difference": -16
+    },
+    "Crystal Palace": {
+      "position": 14,
+      "points": 44,
+      "wins": 12,
+      "draws": 8,
+      "losses": 18,
+      "goals_for": 41,
+      "goals_against": 66,
+      "goal_difference": -25
+    },
+    "Southampton": {
+      "position": 15,
+      "points": 43,
+      "wins": 12,
+      "draws": 7,
+      "losses": 19,
+      "goals_for": 47,
+      "goals_against": 68,
+      "goal_difference": -21
+    },
+    "Brighton & Hove Albion": {
+      "position": 16,
+      "points": 41,
+      "wins": 9,
+      "draws": 14,
+      "losses": 15,
+      "goals_for": 40,
+      "goals_against": 46,
+      "goal_difference": -6
+    },
+    "Burnley": {
+      "position": 17,
+      "points": 39,
+      "wins": 10,
+      "draws": 9,
+      "losses": 19,
+      "goals_for": 33,
+      "goals_against": 55,
+      "goal_difference": -22
+    },
+    "Fulham": {
+      "position": 18,
+      "points": 28,
+      "wins": 5,
+      "draws": 13,
+      "losses": 20,
+      "goals_for": 27,
+      "goals_against": 53,
+      "goal_difference": -26
+    },
+    "West Bromwich Albion": {
+      "position": 19,
+      "points": 26,
+      "wins": 5,
+      "draws": 11,
+      "losses": 22,
+      "goals_for": 35,
+      "goals_against": 76,
+      "goal_difference": -41
+    },
+    "Sheffield United": {
+      "position": 20,
+      "points": 23,
+      "wins": 7,
+      "draws": 2,
+      "losses": 29,
+      "goals_for": 20,
+      "goals_against": 63,
+      "goal_difference": -43
+    }
+  },
+  "2021-2022": {
+    "Manchester City": {
+      "position": 1,
+      "points": 93,
+      "wins": 29,
+      "draws": 6,
+      "losses": 3,
+      "goals_for": 99,
+      "goals_against": 26,
+      "goal_difference": 73
+    },
+    "Liverpool": {
+      "position": 2,
+      "points": 92,
+      "wins": 28,
+      "draws": 8,
+      "losses": 2,
+      "goals_for": 94,
+      "goals_against": 26,
+      "goal_difference": 68
+    },
+    "Chelsea": {
+      "position": 3,
+      "points": 74,
+      "wins": 21,
+      "draws": 11,
+      "losses": 6,
+      "goals_for": 76,
+      "goals_against": 33,
+      "goal_difference": 43
+    },
+    "Tottenham Hotspur": {
+      "position": 4,
+      "points": 71,
+      "wins": 22,
+      "draws": 5,
+      "losses": 11,
+      "goals_for": 69,
+      "goals_against": 40,
+      "goal_difference": 29
+    },
+    "Arsenal": {
+      "position": 5,
+      "points": 69,
+      "wins": 22,
+      "draws": 3,
+      "losses": 13,
+      "goals_for": 61,
+      "goals_against": 48,
+      "goal_difference": 13
+    },
+    "Manchester United": {
+      "position": 6,
+      "points": 58,
+      "wins": 16,
+      "draws": 10,
+      "losses": 12,
+      "goals_for": 57,
+      "goals_against": 57,
+      "goal_difference": 0
+    },
+    "West Ham United": {
+      "position": 7,
+      "points": 56,
+      "wins": 16,
+      "draws": 8,
+      "losses": 14,
+      "goals_for": 60,
+      "goals_against": 51,
+      "goal_difference": 9
+    },
+    "Leicester City": {
+      "position": 8,
+      "points": 52,
+      "wins": 14,
+      "draws": 10,
+      "losses": 14,
+      "goals_for": 62,
+      "goals_against": 59,
+      "goal_difference": 3
+    },
+    "Brighton & Hove Albion": {
+      "position": 9,
+      "points": 51,
+      "wins": 12,
+      "draws": 15,
+      "losses": 11,
+      "goals_for": 42,
+      "goals_against": 44,
+      "goal_difference": -2
+    },
+    "Wolverhampton Wanderers": {
+      "position": 10,
+      "points": 51,
+      "wins": 15,
+      "draws": 6,
+      "losses": 17,
+      "goals_for": 38,
+      "goals_against": 43,
+      "goal_difference": -5
+    },
+    "Newcastle United": {
+      "position": 11,
+      "points": 49,
+      "wins": 13,
+      "draws": 10,
+      "losses": 15,
+      "goals_for": 44,
+      "goals_against": 62,
+      "goal_difference": -18
+    },
+    "Crystal Palace": {
+      "position": 12,
+      "points": 48,
+      "wins": 11,
+      "draws": 15,
+      "losses": 12,
+      "goals_for": 50,
+      "goals_against": 46,
+      "goal_difference": 4
+    },
+    "Brentford": {
+      "position": 13,
+      "points": 46,
+      "wins": 13,
+      "draws": 7,
+      "losses": 18,
+      "goals_for": 48,
+      "goals_against": 56,
+      "goal_difference": -8
+    },
+    "Aston Villa": {
+      "position": 14,
+      "points": 45,
+      "wins": 13,
+      "draws": 6,
+      "losses": 19,
+      "goals_for": 52,
+      "goals_against": 54,
+      "goal_difference": -2
+    },
+    "Southampton": {
+      "position": 15,
+      "points": 40,
+      "wins": 9,
+      "draws": 13,
+      "losses": 16,
+      "goals_for": 43,
+      "goals_against": 67,
+      "goal_difference": -24
+    },
+    "Everton": {
+      "position": 16,
+      "points": 39,
+      "wins": 11,
+      "draws": 6,
+      "losses": 21,
+      "goals_for": 43,
+      "goals_against": 66,
+      "goal_difference": -23
+    },
+    "Leeds United": {
+      "position": 17,
+      "points": 38,
+      "wins": 9,
+      "draws": 11,
+      "losses": 18,
+      "goals_for": 42,
+      "goals_against": 79,
+      "goal_difference": -37
+    },
+    "Burnley": {
+      "position": 18,
+      "points": 35,
+      "wins": 7,
+      "draws": 14,
+      "losses": 17,
+      "goals_for": 34,
+      "goals_against": 53,
+      "goal_difference": -19
+    },
+    "Watford": {
+      "position": 19,
+      "points": 23,
+      "wins": 6,
+      "draws": 5,
+      "losses": 27,
+      "goals_for": 34,
+      "goals_against": 77,
+      "goal_difference": -43
+    },
+    "Norwich City": {
+      "position": 20,
+      "points": 22,
+      "wins": 5,
+      "draws": 7,
+      "losses": 26,
+      "goals_for": 23,
+      "goals_against": 84,
+      "goal_difference": -61
+    }
+  },
+  "2022-2023": {
+    "Manchester City": {
+      "position": 1,
+      "points": 89,
+      "wins": 28,
+      "draws": 5,
+      "losses": 5,
+      "goals_for": 94,
+      "goals_against": 33,
+      "goal_difference": 61
+    },
+    "Arsenal": {
+      "position": 2,
+      "points": 84,
+      "wins": 26,
+      "draws": 6,
+      "losses": 6,
+      "goals_for": 88,
+      "goals_against": 43,
+      "goal_difference": 45
+    },
+    "Manchester United": {
+      "position": 3,
+      "points": 75,
+      "wins": 23,
+      "draws": 6,
+      "losses": 9,
+      "goals_for": 58,
+      "goals_against": 43,
+      "goal_difference": 15
+    },
+    "Newcastle United": {
+      "position": 4,
+      "points": 71,
+      "wins": 19,
+      "draws": 14,
+      "losses": 5,
+      "goals_for": 68,
+      "goals_against": 33,
+      "goal_difference": 35
+    },
+    "Liverpool": {
+      "position": 5,
+      "points": 67,
+      "wins": 19,
+      "draws": 10,
+      "losses": 9,
+      "goals_for": 75,
+      "goals_against": 47,
+      "goal_difference": 28
+    },
+    "Brighton & Hove Albion": {
+      "position": 6,
+      "points": 62,
+      "wins": 18,
+      "draws": 8,
+      "losses": 12,
+      "goals_for": 72,
+      "goals_against": 53,
+      "goal_difference": 19
+    },
+    "Aston Villa": {
+      "position": 7,
+      "points": 61,
+      "wins": 18,
+      "draws": 7,
+      "losses": 13,
+      "goals_for": 51,
+      "goals_against": 46,
+      "goal_difference": 5
+    },
+    "Tottenham Hotspur": {
+      "position": 8,
+      "points": 60,
+      "wins": 18,
+      "draws": 6,
+      "losses": 14,
+      "goals_for": 70,
+      "goals_against": 63,
+      "goal_difference": 7
+    },
+    "Brentford": {
+      "position": 9,
+      "points": 59,
+      "wins": 15,
+      "draws": 14,
+      "losses": 9,
+      "goals_for": 58,
+      "goals_against": 46,
+      "goal_difference": 12
+    },
+    "Fulham": {
+      "position": 10,
+      "points": 52,
+      "wins": 15,
+      "draws": 7,
+      "losses": 16,
+      "goals_for": 55,
+      "goals_against": 53,
+      "goal_difference": 2
+    },
+    "Crystal Palace": {
+      "position": 11,
+      "points": 45,
+      "wins": 11,
+      "draws": 12,
+      "losses": 15,
+      "goals_for": 40,
+      "goals_against": 49,
+      "goal_difference": -9
+    },
+    "Chelsea": {
+      "position": 12,
+      "points": 44,
+      "wins": 11,
+      "draws": 11,
+      "losses": 16,
+      "goals_for": 38,
+      "goals_against": 47,
+      "goal_difference": -9
+    },
+    "Wolverhampton Wanderers": {
+      "position": 13,
+      "points": 41,
+      "wins": 11,
+      "draws": 8,
+      "losses": 19,
+      "goals_for": 31,
+      "goals_against": 58,
+      "goal_difference": -27
+    },
+    "West Ham United": {
+      "position": 14,
+      "points": 40,
+      "wins": 11,
+      "draws": 7,
+      "losses": 20,
+      "goals_for": 42,
+      "goals_against": 55,
+      "goal_difference": -13
+    },
+    "AFC Bournemouth": {
+      "position": 15,
+      "points": 39,
+      "wins": 11,
+      "draws": 6,
+      "losses": 21,
+      "goals_for": 37,
+      "goals_against": 71,
+      "goal_difference": -34
+    },
+    "Nottingham Forest": {
+      "position": 16,
+      "points": 38,
+      "wins": 9,
+      "draws": 11,
+      "losses": 18,
+      "goals_for": 38,
+      "goals_against": 68,
+      "goal_difference": -30
+    },
+    "Everton": {
+      "position": 17,
+      "points": 36,
+      "wins": 8,
+      "draws": 12,
+      "losses": 18,
+      "goals_for": 34,
+      "goals_against": 57,
+      "goal_difference": -23
+    },
+    "Leicester City": {
+      "position": 18,
+      "points": 34,
+      "wins": 9,
+      "draws": 7,
+      "losses": 22,
+      "goals_for": 51,
+      "goals_against": 68,
+      "goal_difference": -17
+    },
+    "Leeds United": {
+      "position": 19,
+      "points": 31,
+      "wins": 7,
+      "draws": 10,
+      "losses": 21,
+      "goals_for": 48,
+      "goals_against": 78,
+      "goal_difference": -30
+    },
+    "Southampton": {
+      "position": 20,
+      "points": 25,
+      "wins": 6,
+      "draws": 7,
+      "losses": 25,
+      "goals_for": 36,
+      "goals_against": 73,
+      "goal_difference": -37
+    }
+  },
+  "2023-2024": {
+    "Manchester City": {
+      "position": 1,
+      "points": 91,
+      "wins": 28,
+      "draws": 7,
+      "losses": 3,
+      "goals_for": 96,
+      "goals_against": 34,
+      "goal_difference": 62
+    },
+    "Arsenal": {
+      "position": 2,
+      "points": 89,
+      "wins": 28,
+      "draws": 5,
+      "losses": 5,
+      "goals_for": 91,
+      "goals_against": 29,
+      "goal_difference": 62
+    },
+    "Liverpool": {
+      "position": 3,
+      "points": 82,
+      "wins": 24,
+      "draws": 10,
+      "losses": 4,
+      "goals_for": 86,
+      "goals_against": 41,
+      "goal_difference": 45
+    },
+    "Aston Villa": {
+      "position": 4,
+      "points": 68,
+      "wins": 20,
+      "draws": 8,
+      "losses": 10,
+      "goals_for": 76,
+      "goals_against": 61,
+      "goal_difference": 15
+    },
+    "Tottenham Hotspur": {
+      "position": 5,
+      "points": 66,
+      "wins": 20,
+      "draws": 6,
+      "losses": 12,
+      "goals_for": 74,
+      "goals_against": 61,
+      "goal_difference": 13
+    },
+    "Chelsea": {
+      "position": 6,
+      "points": 63,
+      "wins": 18,
+      "draws": 9,
+      "losses": 11,
+      "goals_for": 77,
+      "goals_against": 63,
+      "goal_difference": 14
+    },
+    "Newcastle United": {
+      "position": 7,
+      "points": 60,
+      "wins": 18,
+      "draws": 6,
+      "losses": 14,
+      "goals_for": 85,
+      "goals_against": 62,
+      "goal_difference": 23
+    },
+    "Manchester United": {
+      "position": 8,
+      "points": 60,
+      "wins": 18,
+      "draws": 6,
+      "losses": 14,
+      "goals_for": 57,
+      "goals_against": 58,
+      "goal_difference": -1
+    },
+    "West Ham United": {
+      "position": 9,
+      "points": 52,
+      "wins": 14,
+      "draws": 10,
+      "losses": 14,
+      "goals_for": 60,
+      "goals_against": 74,
+      "goal_difference": -14
+    },
+    "Crystal Palace": {
+      "position": 10,
+      "points": 49,
+      "wins": 13,
+      "draws": 10,
+      "losses": 15,
+      "goals_for": 57,
+      "goals_against": 58,
+      "goal_difference": -1
+    },
+    "Brighton & Hove Albion": {
+      "position": 11,
+      "points": 48,
+      "wins": 12,
+      "draws": 12,
+      "losses": 14,
+      "goals_for": 55,
+      "goals_against": 62,
+      "goal_difference": -7
+    },
+    "AFC Bournemouth": {
+      "position": 12,
+      "points": 48,
+      "wins": 13,
+      "draws": 9,
+      "losses": 16,
+      "goals_for": 54,
+      "goals_against": 67,
+      "goal_difference": -13
+    },
+    "Fulham": {
+      "position": 13,
+      "points": 47,
+      "wins": 13,
+      "draws": 8,
+      "losses": 17,
+      "goals_for": 55,
+      "goals_against": 61,
+      "goal_difference": -6
+    },
+    "Wolverhampton Wanderers": {
+      "position": 14,
+      "points": 46,
+      "wins": 13,
+      "draws": 7,
+      "losses": 18,
+      "goals_for": 50,
+      "goals_against": 65,
+      "goal_difference": -15
+    },
+    "Everton": {
+      "position": 15,
+      "points": 40,
+      "wins": 13,
+      "draws": 9,
+      "losses": 16,
+      "goals_for": 40,
+      "goals_against": 51,
+      "goal_difference": -11
+    },
+    "Brentford": {
+      "position": 16,
+      "points": 39,
+      "wins": 10,
+      "draws": 9,
+      "losses": 19,
+      "goals_for": 56,
+      "goals_against": 65,
+      "goal_difference": -9
+    },
+    "Nottingham Forest": {
+      "position": 17,
+      "points": 32,
+      "wins": 9,
+      "draws": 9,
+      "losses": 20,
+      "goals_for": 49,
+      "goals_against": 67,
+      "goal_difference": -18
+    },
+    "Luton Town": {
+      "position": 18,
+      "points": 26,
+      "wins": 6,
+      "draws": 8,
+      "losses": 24,
+      "goals_for": 52,
+      "goals_against": 85,
+      "goal_difference": -33
+    },
+    "Burnley": {
+      "position": 19,
+      "points": 24,
+      "wins": 5,
+      "draws": 9,
+      "losses": 24,
+      "goals_for": 41,
+      "goals_against": 78,
+      "goal_difference": -37
+    },
+    "Sheffield United": {
+      "position": 20,
+      "points": 16,
+      "wins": 3,
+      "draws": 7,
+      "losses": 28,
+      "goals_for": 35,
+      "goals_against": 104,
+      "goal_difference": -69
+    }
+  },
+  "2024-2025": {
+    "Liverpool": {
+      "position": 1,
+      "points": 84,
+      "wins": 25,
+      "draws": 9,
+      "losses": 4,
+      "goals_for": 86,
+      "goals_against": 41,
+      "goal_difference": 45
+    },
+    "Arsenal": {
+      "position": 2,
+      "points": 74,
+      "wins": 20,
+      "draws": 14,
+      "losses": 4,
+      "goals_for": 69,
+      "goals_against": 34,
+      "goal_difference": 35
+    },
+    "Manchester City": {
+      "position": 3,
+      "points": 71,
+      "wins": 21,
+      "draws": 8,
+      "losses": 9,
+      "goals_for": 72,
+      "goals_against": 44,
+      "goal_difference": 28
+    },
+    "Chelsea": {
+      "position": 4,
+      "points": 69,
+      "wins": 20,
+      "draws": 9,
+      "losses": 9,
+      "goals_for": 64,
+      "goals_against": 43,
+      "goal_difference": 21
+    },
+    "Newcastle United": {
+      "position": 5,
+      "points": 66,
+      "wins": 20,
+      "draws": 6,
+      "losses": 12,
+      "goals_for": 68,
+      "goals_against": 47,
+      "goal_difference": 21
+    },
+    "Aston Villa": {
+      "position": 6,
+      "points": 66,
+      "wins": 19,
+      "draws": 9,
+      "losses": 10,
+      "goals_for": 58,
+      "goals_against": 51,
+      "goal_difference": 7
+    },
+    "Nottingham Forest": {
+      "position": 7,
+      "points": 65,
+      "wins": 19,
+      "draws": 8,
+      "losses": 11,
+      "goals_for": 58,
+      "goals_against": 46,
+      "goal_difference": 12
+    },
+    "Brighton & Hove Albion": {
+      "position": 8,
+      "points": 61,
+      "wins": 16,
+      "draws": 13,
+      "losses": 9,
+      "goals_for": 66,
+      "goals_against": 59,
+      "goal_difference": 7
+    },
+    "AFC Bournemouth": {
+      "position": 9,
+      "points": 56,
+      "wins": 15,
+      "draws": 11,
+      "losses": 12,
+      "goals_for": 58,
+      "goals_against": 46,
+      "goal_difference": 12
+    },
+    "Brentford": {
+      "position": 10,
+      "points": 56,
+      "wins": 16,
+      "draws": 8,
+      "losses": 14,
+      "goals_for": 66,
+      "goals_against": 57,
+      "goal_difference": 9
+    },
+    "Fulham": {
+      "position": 11,
+      "points": 54,
+      "wins": 15,
+      "draws": 9,
+      "losses": 14,
+      "goals_for": 54,
+      "goals_against": 54,
+      "goal_difference": 0
+    },
+    "Crystal Palace": {
+      "position": 12,
+      "points": 53,
+      "wins": 13,
+      "draws": 14,
+      "losses": 11,
+      "goals_for": 51,
+      "goals_against": 51,
+      "goal_difference": 0
+    },
+    "Everton": {
+      "position": 13,
+      "points": 48,
+      "wins": 11,
+      "draws": 15,
+      "losses": 12,
+      "goals_for": 42,
+      "goals_against": 44,
+      "goal_difference": -2
+    },
+    "West Ham United": {
+      "position": 14,
+      "points": 43,
+      "wins": 11,
+      "draws": 10,
+      "losses": 17,
+      "goals_for": 46,
+      "goals_against": 62,
+      "goal_difference": -16
+    },
+    "Manchester United": {
+      "position": 15,
+      "points": 42,
+      "wins": 11,
+      "draws": 9,
+      "losses": 18,
+      "goals_for": 44,
+      "goals_against": 54,
+      "goal_difference": -10
+    },
+    "Wolverhampton Wanderers": {
+      "position": 16,
+      "points": 42,
+      "wins": 12,
+      "draws": 6,
+      "losses": 20,
+      "goals_for": 54,
+      "goals_against": 69,
+      "goal_difference": -15
+    },
+    "Tottenham Hotspur": {
+      "position": 17,
+      "points": 38,
+      "wins": 11,
+      "draws": 5,
+      "losses": 22,
+      "goals_for": 64,
+      "goals_against": 65,
+      "goal_difference": -1
+    },
+    "Leicester City": {
+      "position": 18,
+      "points": 25,
+      "wins": 6,
+      "draws": 7,
+      "losses": 25,
+      "goals_for": 33,
+      "goals_against": 80,
+      "goal_difference": -47
+    },
+    "Ipswich Town": {
+      "position": 19,
+      "points": 22,
+      "wins": 4,
+      "draws": 10,
+      "losses": 24,
+      "goals_for": 36,
+      "goals_against": 82,
+      "goal_difference": -46
+    },
+    "Southampton": {
+      "position": 20,
+      "points": 12,
+      "wins": 2,
+      "draws": 6,
+      "losses": 30,
+      "goals_for": 26,
+      "goals_against": 86,
+      "goal_difference": -60
+    }
+  }
+}
