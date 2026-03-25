@@ -33,23 +33,24 @@ def render_radar_chart(data, compare_data, axes_labels):
     fig.add_trace(go.Scatterpolar(
         r=values, theta=categories, fill="toself",
         name=data["name"],
-        line=dict(color="#2E7BE6", width=2),
-        fillcolor="rgba(46,123,230,0.15)",
+        line=dict(color="#2E7BE6", width=4),
+        fillcolor="rgba(46,123,230,0.1)",
     ))
     if compare_data:
         cvals = [compare_data["axes"].get(a, 0) for a in axes_labels] + [compare_data["axes"].get(axes_labels[0], 0)]
         fig.add_trace(go.Scatterpolar(
             r=cvals, theta=categories, fill="toself",
             name=compare_data["name"],
-            line=dict(color="#f59e0b", width=2),
-            fillcolor="rgba(245,158,11,0.10)",
+            line=dict(color="#F4A261", width=3),
+            fillcolor="rgba(244,162,97,0.1)",
         ))
     fig.update_layout(
         polar=dict(
             radialaxis=dict(visible=True, range=[0, 200], gridcolor="#F0F0F0"),
             angularaxis=dict(rotation=90, direction="clockwise"),
+            bgcolor="white",
         ),
-        showlegend=bool(compare_data),
-        height=380, margin=dict(l=60, r=60, t=40, b=40),
+        showlegend=True, margin=dict(l=50, r=50, t=20, b=20), height=500,
+        clickmode="none", dragmode=False,
     )
     return fig
