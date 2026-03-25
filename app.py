@@ -129,57 +129,113 @@ with tab_dash:
     """, unsafe_allow_html=True)
     st.caption(f"{len(all_clubs)} clubs scored for 2024-25 season")
 
-    # Top 5 / Bottom 5
-    st.markdown("<div class='section-title'>Top 5</div>", unsafe_allow_html=True)
-    cols_top = st.columns(5)
-    for i, c in enumerate(all_clubs[:5]):
-        with cols_top[i]:
-            color = "#10b981" if i == 0 else "#2E7BE6"
-            if c.get("logo"):
-                st.image(c["logo"], width=50)
-            st.markdown(
-                f"<div style='text-align:center;'>"
-                f"<div style='font-size:28px;font-weight:900;color:{color};'>{int(c['total'])}</div>"
-                f"<div style='font-size:13px;color:#555;'>{c['name']}</div></div>",
-                unsafe_allow_html=True,
-            )
+    # League Health Score
+    avg_score = int(sum(int(c["total"]) for c in all_clubs) / len(all_clubs))
+    if avg_score >= 700:
+        health_label, health_color, health_bg = "Healthy", "#10b981", "#f0fdf4"
+    elif avg_score >= 500:
+        health_label, health_color, health_bg = "Moderate", "#f59e0b", "#fffbeb"
+    else:
+        health_label, health_color, health_bg = "Weak", "#ef4444", "#fef2f2"
 
-    st.markdown("<div class='section-title'>Bottom 5</div>", unsafe_allow_html=True)
-    cols_bot = st.columns(5)
-    for i, c in enumerate(all_clubs[-5:]):
-        with cols_bot[i]:
-            if c.get("logo"):
-                st.image(c["logo"], width=50)
-            st.markdown(
-                f"<div style='text-align:center;'>"
-                f"<div style='font-size:28px;font-weight:900;color:#ef4444;'>{int(c['total'])}</div>"
-                f"<div style='font-size:13px;color:#555;'>{c['name']}</div></div>",
-                unsafe_allow_html=True,
-            )
+    mh1, mh2, mh3 = st.columns(3)
+    mh1.markdown(f"""
+    <div style="background:{health_bg}; padding:24px; border-radius:16px; text-align:center; border:2px solid {health_color};">
+        <div style="font-size:0.75em; font-weight:700; color:#64748b; letter-spacing:1px;">LEAGUE HEALTH</div>
+        <div style="font-size:2.8em; font-weight:900; color:{health_color}; line-height:1.1;">{avg_score}</div>
+        <div style="font-size:0.9em; font-weight:700; color:{health_color};">{health_label}</div>
+    </div>
+    """, unsafe_allow_html=True)
+    top5_avg = int(sum(int(c["total"]) for c in all_clubs[:5]) / 5)
+    bot5_avg = int(sum(int(c["total"]) for c in all_clubs[-5:]) / 5)
+    mh2.markdown(f"""
+    <div style="background:#fff; padding:24px; border-radius:16px; text-align:center; border:1px solid #e2e8f0;">
+        <div style="font-size:0.75em; font-weight:700; color:#10b981; letter-spacing:1px;">TOP 5 AVG</div>
+        <div style="font-size:2.8em; font-weight:900; color:#1e293b; line-height:1.1;">{top5_avg}</div>
+        <div style="font-size:0.8em; color:#94a3b8;">5 clubs</div>
+    </div>
+    """, unsafe_allow_html=True)
+    mh3.markdown(f"""
+    <div style="background:#fff; padding:24px; border-radius:16px; text-align:center; border:1px solid #e2e8f0;">
+        <div style="font-size:0.75em; font-weight:700; color:#ef4444; letter-spacing:1px;">BOTTOM 5 AVG</div>
+        <div style="font-size:2.8em; font-weight:900; color:#1e293b; line-height:1.1;">{bot5_avg}</div>
+        <div style="font-size:0.8em; color:#94a3b8;">5 clubs</div>
+    </div>
+    """, unsafe_allow_html=True)
 
-    # All clubs grid
-    st.markdown("<div class='section-title'>All Clubs</div>", unsafe_allow_html=True)
-    grid_cols = st.columns(5)
+    st.markdown("<div style='height:20px;'></div>", unsafe_allow_html=True)
+
+    # Movers from history
+    history = _load_scores_history()
+    hist_dates = sorted(history.keys(), reverse=True) if history else []
+    movers = []
+    for c in all_clubs:
+        prev = None
+        for dt in hist_dates:
+            prev = history[dt].get(c["name"])
+            if prev is not None:
+                break
+        delta = int(c["total"]) - prev if prev is not None else 0
+        movers.append({"name": c["name"], "score": int(c["total"]), "delta": delta})
+
+    top_movers = sorted(movers, key=lambda x: x["delta"], reverse=True)[:3]
+    bottom_movers = sorted(movers, key=lambda x: x["delta"])[:3]
+
+    if any(m["delta"] != 0 for m in top_movers + bottom_movers):
+        mv1, mv2 = st.columns(2)
+        with mv1:
+            st.markdown("<div style='font-size:1em; font-weight:700; color:#10b981; margin-bottom:10px;'>Top Movers</div>", unsafe_allow_html=True)
+            for m in top_movers:
+                if m["delta"] > 0:
+                    st.markdown(f"""
+                    <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 14px; background:#f0fdf4; border-radius:8px; margin-bottom:6px;">
+                        <span style="font-weight:600; color:#1e293b;">{m['name']}</span>
+                        <span style="font-weight:700; color:#10b981;">&#9650; {m['delta']:+d}</span>
+                    </div>
+                    """, unsafe_allow_html=True)
+        with mv2:
+            st.markdown("<div style='font-size:1em; font-weight:700; color:#ef4444; margin-bottom:10px;'>Bottom Movers</div>", unsafe_allow_html=True)
+            for m in bottom_movers:
+                if m["delta"] < 0:
+                    st.markdown(f"""
+                    <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 14px; background:#fef2f2; border-radius:8px; margin-bottom:6px;">
+                        <span style="font-weight:600; color:#1e293b;">{m['name']}</span>
+                        <span style="font-weight:700; color:#ef4444;">&#9660; {m['delta']:+d}</span>
+                    </div>
+                    """, unsafe_allow_html=True)
+
+    st.markdown("<div style='height:15px;'></div>", unsafe_allow_html=True)
+
+    # All clubs — FRS-1000 style cards
+    st.markdown("<div style='font-size:1.1em; font-weight:700; color:#1a3c6e; margin:15px 0 10px; border-left:4px solid #1a3c6e; padding-left:10px;'>All Clubs</div>", unsafe_allow_html=True)
+    cols = st.columns(5)
     for idx, c in enumerate(all_clubs):
-        with grid_cols[idx % 5]:
-            total = int(c["total"])
-            if total >= 700:
-                badge_color = "#10b981"
-            elif total >= 500:
-                badge_color = "#2E7BE6"
-            elif total >= 350:
-                badge_color = "#f59e0b"
-            else:
-                badge_color = "#ef4444"
-            if c.get("logo"):
-                st.image(c["logo"], width=35)
-            st.markdown(
-                f"<div class='card'><div style='font-size:11px;color:#999;'>#{idx+1}</div>"
-                f"<div style='font-size:15px;font-weight:700;'>{c['name']}</div>"
-                f"<span class='score-badge' style='background:{badge_color}22;color:{badge_color};'>{total}</span>"
-                f"</div>",
-                unsafe_allow_html=True,
-            )
+        score = int(c["total"])
+        if score >= 800:
+            sc_color = "#10b981"
+        elif score >= 600:
+            sc_color = "#2E7BE6"
+        elif score >= 400:
+            sc_color = "#f59e0b"
+        else:
+            sc_color = "#ef4444"
+
+        delta_html = ""
+        for m in movers:
+            if m["name"] == c["name"] and m["delta"] != 0:
+                d_color = "#10b981" if m["delta"] > 0 else "#ef4444"
+                d_icon = "&#9650;" if m["delta"] > 0 else "&#9660;"
+                delta_html = f'<div style="font-size:0.8em; font-weight:700; color:{d_color};">{d_icon} {m["delta"]:+d}</div>'
+                break
+
+        cols[idx % 5].markdown(f"""
+        <div style="background:#fff; padding:18px; border-radius:14px; border:1px solid #e2e8f0; text-align:center; margin-bottom:10px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+            <div style="font-size:0.8em; font-weight:600; color:#64748b; margin-bottom:6px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{c['name']}</div>
+            <div style="font-size:2em; font-weight:900; color:{sc_color}; line-height:1;">{score}</div>
+            <div style="font-size:0.7em; color:#ccc;">/ 1000</div>
+            {delta_html}
+        </div>
+        """, unsafe_allow_html=True)
 
 # ═══════════════════════════════════════════════════════════════
 # TAB 2 — Club Detail
@@ -252,26 +308,79 @@ with tab_detail:
     # Radar + Score Metrics
     col_r, col_a = st.columns([1.5, 1])
     with col_r:
-        st.markdown("<div style='font-size:1.1em;font-weight:bold;color:#333;margin-bottom:5px;'>Intelligence Radar</div>", unsafe_allow_html=True)
+        st.markdown("<div style='font-size:1.1em;font-weight:bold;color:#333;margin-top:-10px;margin-bottom:5px;'>I. Intelligence Radar</div>", unsafe_allow_html=True)
         fig_r = render_radar_chart(selected, compare_data, AXES_LABELS)
         st.plotly_chart(fig_r, use_container_width=True, config={"displayModeBar": False}, key="radar_detail")
     with col_a:
-        st.markdown("<div style='font-size:0.9em;font-weight:bold;color:#333;margin-bottom:15px;border-left:3px solid #2E7BE6;padding-left:8px;'>SCORE METRICS</div>", unsafe_allow_html=True)
+        st.markdown("<div style='font-size:0.9em;font-weight:bold;color:#333;margin-top:-10px;margin-bottom:15px;border-left:3px solid #2E7BE6;padding-left:8px;'>II. ANALYSIS SCORE METRICS</div>", unsafe_allow_html=True)
+
+        saved_club = st.session_state.get("saved_club")
         for ax in AXES_LABELS:
-            val = int(selected["axes"].get(ax, 0))
-            pct = val / 200 * 100
-            bar_color = "#10b981" if pct >= 70 else "#2E7BE6" if pct >= 40 else "#ef4444"
+            v1 = int(selected["axes"].get(ax, 0))
+            v2 = int(saved_club["axes"].get(ax, 0)) if saved_club else None
+            desc_text = LOGIC_DESC.get(ax, "")
+
+            score_html = f'<span style="color: #2E7BE6;">{v1}</span>'
+            if v2 is not None:
+                score_html += f' <span style="color: #ccc; font-size: 0.9em; font-weight:bold; margin: 0 6px;">vs</span> <span style="color: #F4A261;">{v2}</span>'
+
             st.markdown(
-                f"<div style='margin-bottom:8px;'>"
-                f"<div style='font-size:12px;color:#555;'>{ax}</div>"
-                f"<div style='background:#eee;border-radius:6px;height:18px;'>"
-                f"<div style='background:{bar_color};width:{pct}%;height:100%;border-radius:6px;text-align:right;padding-right:6px;color:white;font-size:11px;font-weight:700;line-height:18px;'>{val}</div>"
-                f"</div></div>",
+                f"""
+                <div style="
+                    background-color: #FFFFFF;
+                    padding: 20px;
+                    border-radius: 12px;
+                    margin-bottom: 12px;
+                    border: 1px solid #E0E0E0;
+                    border-left: 8px solid #2E7BE6;
+                    box-shadow: 2px 2px 5px rgba(0,0,0,0.07);
+                ">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                        <span style="font-size: 1.4em; font-weight: 800; color: #333333;">{ax}</span>
+                        <span style="font-size: 1.9em; font-weight: 900; line-height: 1;">{score_html}</span>
+                    </div>
+                    <p style="font-size: 1.05em; color: #777777; margin: 0; line-height: 1.3; font-weight: 500;">{desc_text}</p>
+                </div>
+                """,
                 unsafe_allow_html=True,
             )
+            with st.expander(f"Why {v1}?", expanded=False):
+                if ax == "Financial Health":
+                    wage_ratio = fin["wage_bill_m"] / max(fin["revenue_m"], 1)
+                    st.markdown(f"""
+**Formula:** Wage-to-Revenue Ratio + Valuation + FFP Compliance + Sustainability
+**Raw Data:** Wages: ${fin['wage_bill_m']}M | Revenue: ${fin['revenue_m']}M | Ratio: {wage_ratio:.1%} | FFP: {fin['ffp_status']}
+**Source:** Forbes, Deloitte Football Money League
+""")
+                elif ax == "On-Pitch ROI":
+                    pts = standing.get("points", 0)
+                    ppw = pts / max(fin["wage_bill_m"], 1) * 100
+                    st.markdown(f"""
+**Formula:** Points per £M Wage + Position Score + Goal Difference Efficiency
+**Raw Data:** Points: {pts} | Wage: ${fin['wage_bill_m']}M | Pts/£M: {ppw:.1f} | GD: {standing.get('goal_difference', 'N/A')}
+**Source:** ESPN API, Forbes
+""")
+                elif ax == "Transfer Efficiency":
+                    st.markdown(f"""
+**Formula:** Net Spend Efficiency + Position Improvement + Sell-on Ratio + Squad Age
+**Raw Data:** Net Spend: ${fin['net_transfer_spend_m']}M | Prev Pos: {fin.get('prev_season_position', 'N/A')} | Avg Age: {fin.get('squad_avg_age', 'N/A')}
+**Source:** Transfermarkt, ESPN
+""")
+                elif ax == "Revenue Strength":
+                    st.markdown(f"""
+**Formula:** Total Revenue + Sponsor Portfolio + Title Sponsor Value + Social Media + Attendance
+**Raw Data:** Revenue: ${fin['revenue_m']}M | Title Sponsor: {fin.get('title_sponsor', 'N/A')} (${fin.get('title_sponsor_value_m', 0)}M) | Social: {fin.get('social_media_followers_m', 0)}M followers
+**Source:** Forbes, Club Official Data
+""")
+                elif ax == "Stability & Governance":
+                    st.markdown(f"""
+**Formula:** Manager Stability + Ownership Quality + Legacy + Fan Engagement
+**Raw Data:** Manager Changes (3yr): {fin.get('manager_changes_3yr', 'N/A')} | Owner: {fin['owner']} | Titles: {fin.get('titles', 0)}
+**Source:** Public Records
+""")
 
     # Club Snapshot
-    st.markdown("<div class='section-title'>Club Snapshot</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>III. Club Snapshot</div>", unsafe_allow_html=True)
     s1, s2 = st.columns(2)
     with s1:
         st.markdown(f"""
@@ -300,7 +409,7 @@ with tab_detail:
         </div>""", unsafe_allow_html=True)
 
     # Transfer Activity
-    st.markdown("<div class='section-title'>Transfer Activity</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>IV. Transfer Activity</div>", unsafe_allow_html=True)
     t1, t2 = st.columns(2)
     with t1:
         st.markdown("<div style='font-size:13px;font-weight:700;color:#10b981;'>KEY SIGNINGS</div>", unsafe_allow_html=True)
@@ -312,7 +421,7 @@ with tab_detail:
             st.markdown(f"- {p}")
 
     # Score Summary Cards
-    st.markdown("<div class='section-title'>Score Summary</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>V. Score Comparison</div>", unsafe_allow_html=True)
     sorted_axes = sorted(selected["axes"].items(), key=lambda x: x[1], reverse=True)
     sc1, sc2, sc3 = st.columns(3)
     sc1.markdown(
@@ -342,7 +451,7 @@ with tab_detail:
                 h_dates.append(d)
                 h_vals.append(s)
         if len(h_dates) >= 1:
-            st.markdown("<div class='section-title'>Score History</div>", unsafe_allow_html=True)
+            st.markdown("<div class='section-title'>VI. Score History</div>", unsafe_allow_html=True)
             fig_h = go.Figure()
             fig_h.add_trace(go.Scatter(x=h_dates, y=h_vals, mode="lines",
                                        line=dict(color="#2E7BE6", width=2),
@@ -356,12 +465,18 @@ with tab_detail:
     st.markdown("<div class='section-title'>Daily Score Tracker</div>", unsafe_allow_html=True)
     render_daily_tracker(sel_name)
 
-    # News
-    st.markdown("<div class='section-title'>Latest News</div>", unsafe_allow_html=True)
+    # News — FRS-1000 style
+    st.markdown("<div class='section-title'>VII. Latest News</div>", unsafe_allow_html=True)
     news = fetch_club_news(sel_name)
     if news:
         for n in news[:5]:
-            st.markdown(f"- [{n['title']}]({n['link']}) — *{n['source']}*")
+            st.markdown(
+                f'<div style="padding:10px 0; border-bottom:1px solid #F0F0F0;">'
+                f'<a href="{n["link"]}" target="_blank" style="font-size:0.95em; font-weight:600; color:#1e3a8a; text-decoration:none;">{n["title"]}</a>'
+                f'<div style="font-size:0.8em; color:#999; margin-top:3px;">{n["source"]} · {n["date"][:16] if n["date"] else ""}</div>'
+                f'</div>',
+                unsafe_allow_html=True,
+            )
     else:
         st.caption("No recent news found.")
 
