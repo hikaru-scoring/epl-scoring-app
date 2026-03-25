@@ -455,17 +455,14 @@ with tab_detail:
         if len(h_dates) >= 1:
             st.markdown("<div class='section-title'>VI. Score History</div>", unsafe_allow_html=True)
             fig_h = go.Figure()
-            fig_h.add_trace(go.Scatter(x=h_dates, y=h_vals, mode="lines",
+            fig_h.add_trace(go.Scatter(x=h_dates, y=h_vals, mode="lines+markers",
                                        line=dict(color="#2E7BE6", width=2),
+                                       marker=dict(size=6),
                                        fill="tozeroy", fillcolor="rgba(46,123,230,0.05)"))
             fig_h.update_layout(yaxis=dict(range=[0, 1000], title="Score"), height=250,
                                 margin=dict(l=0, r=0, t=10, b=0), plot_bgcolor="white",
                                 hovermode="x unified", clickmode="none", dragmode=False)
             st.plotly_chart(fig_h, use_container_width=True, config={"displayModeBar": False}, key="hist_detail")
-
-    # Daily Tracker
-    st.markdown("<div class='section-title'>Daily Score Tracker</div>", unsafe_allow_html=True)
-    render_daily_tracker(sel_name)
 
     # News — FRS-1000 style
     st.markdown("<div class='section-title'>VII. Latest News</div>", unsafe_allow_html=True)
