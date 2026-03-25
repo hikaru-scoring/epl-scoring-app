@@ -16,14 +16,24 @@
     "titles": 19,
     "champions_league_titles": 6,
     "ffp_status": "Compliant",
-    "major_sponsors": ["Standard Chartered", "Nike", "Expedia", "AXA"],
+    "major_sponsors": [
+      "Standard Chartered",
+      "Nike",
+      "Expedia",
+      "AXA"
+    ],
     "title_sponsor": "Standard Chartered",
     "title_sponsor_value_m": 50,
     "social_media_followers_m": 120,
     "manager_changes_3yr": 1,
     "prev_season_position": 3,
-    "key_signings": ["Federico Chiesa", "Giorgi Mamardashvili"],
-    "key_departures": ["Mohamed Salah"],
+    "key_signings": [
+      "Federico Chiesa",
+      "Giorgi Mamardashvili"
+    ],
+    "key_departures": [
+      "Mohamed Salah"
+    ],
     "squad_avg_age": 26.2
   },
   "Arsenal": {
@@ -43,14 +53,26 @@
     "titles": 13,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["Emirates", "Adidas", "Visit Rwanda", "Lavazza"],
+    "major_sponsors": [
+      "Emirates",
+      "Adidas",
+      "Visit Rwanda",
+      "Lavazza"
+    ],
     "title_sponsor": "Emirates",
     "title_sponsor_value_m": 60,
     "social_media_followers_m": 100,
     "manager_changes_3yr": 0,
     "prev_season_position": 2,
-    "key_signings": ["Riccardo Calafiori", "Mikel Merino", "Raheem Sterling"],
-    "key_departures": ["Emile Smith Rowe", "Fabio Vieira"],
+    "key_signings": [
+      "Riccardo Calafiori",
+      "Mikel Merino",
+      "Raheem Sterling"
+    ],
+    "key_departures": [
+      "Emile Smith Rowe",
+      "Fabio Vieira"
+    ],
     "squad_avg_age": 25.8
   },
   "Manchester City": {
@@ -70,14 +92,25 @@
     "titles": 10,
     "champions_league_titles": 1,
     "ffp_status": "Under Investigation (115 charges)",
-    "major_sponsors": ["Etihad Airways", "Puma", "Sony", "Nissan"],
+    "major_sponsors": [
+      "Etihad Airways",
+      "Puma",
+      "Sony",
+      "Nissan"
+    ],
     "title_sponsor": "Etihad Airways",
     "title_sponsor_value_m": 67,
     "social_media_followers_m": 110,
     "manager_changes_3yr": 0,
     "prev_season_position": 1,
-    "key_signings": ["Savinho", "Ilkay Gundogan"],
-    "key_departures": ["Julian Alvarez", "Joao Cancelo"],
+    "key_signings": [
+      "Savinho",
+      "Ilkay Gundogan"
+    ],
+    "key_departures": [
+      "Julian Alvarez",
+      "Joao Cancelo"
+    ],
     "squad_avg_age": 27.1
   },
   "Chelsea": {
@@ -97,14 +130,26 @@
     "titles": 6,
     "champions_league_titles": 2,
     "ffp_status": "At Risk",
-    "major_sponsors": ["Infinite Athlete", "Nike", "Trivago", "Hublot"],
+    "major_sponsors": [
+      "Infinite Athlete",
+      "Nike",
+      "Trivago",
+      "Hublot"
+    ],
     "title_sponsor": "Infinite Athlete",
     "title_sponsor_value_m": 40,
     "social_media_followers_m": 95,
     "manager_changes_3yr": 4,
     "prev_season_position": 6,
-    "key_signings": ["Pedro Neto", "Joao Felix", "Jadon Sancho"],
-    "key_departures": ["Conor Gallagher", "Ian Maatsen"],
+    "key_signings": [
+      "Pedro Neto",
+      "Joao Felix",
+      "Jadon Sancho"
+    ],
+    "key_departures": [
+      "Conor Gallagher",
+      "Ian Maatsen"
+    ],
     "squad_avg_age": 24.5
   },
   "Newcastle United": {
@@ -124,14 +169,24 @@
     "titles": 4,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["Sela", "Adidas", "FUN88", "Noon"],
+    "major_sponsors": [
+      "Sela",
+      "Adidas",
+      "FUN88",
+      "Noon"
+    ],
     "title_sponsor": "Sela",
     "title_sponsor_value_m": 25,
     "social_media_followers_m": 30,
     "manager_changes_3yr": 0,
     "prev_season_position": 7,
-    "key_signings": ["Lewis Hall", "Lloyd Kelly"],
-    "key_departures": ["Elliot Anderson"],
+    "key_signings": [
+      "Lewis Hall",
+      "Lloyd Kelly"
+    ],
+    "key_departures": [
+      "Elliot Anderson"
+    ],
     "squad_avg_age": 26.5
   },
   "Aston Villa": {
@@ -151,14 +206,24 @@
     "titles": 7,
     "champions_league_titles": 1,
     "ffp_status": "Compliant",
-    "major_sponsors": ["Betano", "Adidas", "Dafabet"],
+    "major_sponsors": [
+      "Betano",
+      "Adidas",
+      "Dafabet"
+    ],
     "title_sponsor": "Betano",
     "title_sponsor_value_m": 20,
     "social_media_followers_m": 15,
     "manager_changes_3yr": 1,
     "prev_season_position": 4,
-    "key_signings": ["Amadou Onana", "Ian Maatsen"],
-    "key_departures": ["Douglas Luiz", "Moussa Diaby"],
+    "key_signings": [
+      "Amadou Onana",
+      "Ian Maatsen"
+    ],
+    "key_departures": [
+      "Douglas Luiz",
+      "Moussa Diaby"
+    ],
     "squad_avg_age": 26.0
   },
   "Nottingham Forest": {
@@ -178,14 +243,23 @@
     "titles": 1,
     "champions_league_titles": 2,
     "ffp_status": "Previously Penalized (4-pt deduction 2023-24)",
-    "major_sponsors": ["UNHCR", "Macron", "Kaiyun Sports"],
+    "major_sponsors": [
+      "UNHCR",
+      "Macron",
+      "Kaiyun Sports"
+    ],
     "title_sponsor": "UNHCR",
     "title_sponsor_value_m": 5,
     "social_media_followers_m": 8,
     "manager_changes_3yr": 1,
     "prev_season_position": 17,
-    "key_signings": ["Elliot Anderson", "Nikola Milenkovic"],
-    "key_departures": ["Moussa Niakhate"],
+    "key_signings": [
+      "Elliot Anderson",
+      "Nikola Milenkovic"
+    ],
+    "key_departures": [
+      "Moussa Niakhate"
+    ],
     "squad_avg_age": 26.3
   },
   "Brighton & Hove Albion": {
@@ -205,14 +279,24 @@
     "titles": 0,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["American Express", "Nike", "eToro"],
+    "major_sponsors": [
+      "American Express",
+      "Nike",
+      "eToro"
+    ],
     "title_sponsor": "American Express",
     "title_sponsor_value_m": 15,
     "social_media_followers_m": 8,
     "manager_changes_3yr": 3,
     "prev_season_position": 11,
-    "key_signings": ["Yankuba Minteh", "Mats Wieffer"],
-    "key_departures": ["Alexis Mac Allister", "Kaoru Mitoma"],
+    "key_signings": [
+      "Yankuba Minteh",
+      "Mats Wieffer"
+    ],
+    "key_departures": [
+      "Alexis Mac Allister",
+      "Kaoru Mitoma"
+    ],
     "squad_avg_age": 25.0
   },
   "AFC Bournemouth": {
@@ -232,14 +316,22 @@
     "titles": 0,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["Dafabet", "Umbro"],
+    "major_sponsors": [
+      "Dafabet",
+      "Umbro"
+    ],
     "title_sponsor": "Dafabet",
     "title_sponsor_value_m": 8,
     "social_media_followers_m": 5,
     "manager_changes_3yr": 1,
     "prev_season_position": 12,
-    "key_signings": ["Dean Huijsen", "Enes Unal"],
-    "key_departures": ["Dominic Solanke"],
+    "key_signings": [
+      "Dean Huijsen",
+      "Enes Unal"
+    ],
+    "key_departures": [
+      "Dominic Solanke"
+    ],
     "squad_avg_age": 25.5
   },
   "Brentford": {
@@ -259,14 +351,23 @@
     "titles": 0,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["Gtech", "Umbro", "Hollywood Bets"],
+    "major_sponsors": [
+      "Gtech",
+      "Umbro",
+      "Hollywood Bets"
+    ],
     "title_sponsor": "Gtech",
     "title_sponsor_value_m": 10,
     "social_media_followers_m": 5,
     "manager_changes_3yr": 0,
     "prev_season_position": 16,
-    "key_signings": ["Igor Thiago", "Fabio Carvalho"],
-    "key_departures": ["Ivan Toney"],
+    "key_signings": [
+      "Igor Thiago",
+      "Fabio Carvalho"
+    ],
+    "key_departures": [
+      "Ivan Toney"
+    ],
     "squad_avg_age": 26.0
   },
   "Fulham": {
@@ -286,14 +387,23 @@
     "titles": 0,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["World Mobile", "Adidas", "Betway"],
+    "major_sponsors": [
+      "World Mobile",
+      "Adidas",
+      "Betway"
+    ],
     "title_sponsor": "World Mobile",
     "title_sponsor_value_m": 8,
     "social_media_followers_m": 7,
     "manager_changes_3yr": 0,
     "prev_season_position": 13,
-    "key_signings": ["Emile Smith Rowe", "Jorge Cuenca"],
-    "key_departures": ["Tosin Adarabioyo"],
+    "key_signings": [
+      "Emile Smith Rowe",
+      "Jorge Cuenca"
+    ],
+    "key_departures": [
+      "Tosin Adarabioyo"
+    ],
     "squad_avg_age": 26.8
   },
   "Crystal Palace": {
@@ -313,14 +423,24 @@
     "titles": 0,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["Cinch", "Macron", "W88"],
+    "major_sponsors": [
+      "Cinch",
+      "Macron",
+      "W88"
+    ],
     "title_sponsor": "Cinch",
     "title_sponsor_value_m": 8,
     "social_media_followers_m": 8,
     "manager_changes_3yr": 1,
     "prev_season_position": 10,
-    "key_signings": ["Ismaila Sarr", "Daichi Kamada"],
-    "key_departures": ["Michael Olise", "Joachim Andersen"],
+    "key_signings": [
+      "Ismaila Sarr",
+      "Daichi Kamada"
+    ],
+    "key_departures": [
+      "Michael Olise",
+      "Joachim Andersen"
+    ],
     "squad_avg_age": 26.5
   },
   "Everton": {
@@ -340,14 +460,24 @@
     "titles": 9,
     "champions_league_titles": 0,
     "ffp_status": "Previously Penalized (8-pt deduction 2023-24)",
-    "major_sponsors": ["Stake.com", "Castore", "Fanatics"],
+    "major_sponsors": [
+      "Stake.com",
+      "Castore",
+      "Fanatics"
+    ],
     "title_sponsor": "Stake.com",
     "title_sponsor_value_m": 12,
     "social_media_followers_m": 15,
     "manager_changes_3yr": 1,
     "prev_season_position": 15,
-    "key_signings": ["Jake O'Brien", "Iliman Ndiaye"],
-    "key_departures": ["Amadou Onana", "Ben Godfrey"],
+    "key_signings": [
+      "Jake O'Brien",
+      "Iliman Ndiaye"
+    ],
+    "key_departures": [
+      "Amadou Onana",
+      "Ben Godfrey"
+    ],
     "squad_avg_age": 27.0
   },
   "West Ham United": {
@@ -367,14 +497,25 @@
     "titles": 0,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["Betway", "Umbro", "Lycamobile"],
+    "major_sponsors": [
+      "Betway",
+      "Umbro",
+      "Lycamobile"
+    ],
     "title_sponsor": "Betway",
     "title_sponsor_value_m": 15,
     "social_media_followers_m": 15,
     "manager_changes_3yr": 2,
     "prev_season_position": 9,
-    "key_signings": ["Max Kilman", "Crysencio Summerville", "Niclas Fullkrug"],
-    "key_departures": ["Declan Rice", "Said Benrahma"],
+    "key_signings": [
+      "Max Kilman",
+      "Crysencio Summerville",
+      "Niclas Fullkrug"
+    ],
+    "key_departures": [
+      "Declan Rice",
+      "Said Benrahma"
+    ],
     "squad_avg_age": 27.2
   },
   "Manchester United": {
@@ -394,14 +535,26 @@
     "titles": 20,
     "champions_league_titles": 3,
     "ffp_status": "Compliant",
-    "major_sponsors": ["Qualcomm (Snapdragon)", "Adidas", "TeamViewer", "Tezos"],
+    "major_sponsors": [
+      "Qualcomm (Snapdragon)",
+      "Adidas",
+      "TeamViewer",
+      "Tezos"
+    ],
     "title_sponsor": "Qualcomm (Snapdragon)",
     "title_sponsor_value_m": 75,
     "social_media_followers_m": 200,
     "manager_changes_3yr": 3,
     "prev_season_position": 8,
-    "key_signings": ["Leny Yoro", "Joshua Zirkzee", "Manuel Ugarte"],
-    "key_departures": ["Raphael Varane", "Anthony Martial"],
+    "key_signings": [
+      "Leny Yoro",
+      "Joshua Zirkzee",
+      "Manuel Ugarte"
+    ],
+    "key_departures": [
+      "Raphael Varane",
+      "Anthony Martial"
+    ],
     "squad_avg_age": 25.5
   },
   "Wolverhampton Wanderers": {
@@ -421,14 +574,24 @@
     "titles": 3,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["AstroPay", "Castore", "12BET"],
+    "major_sponsors": [
+      "AstroPay",
+      "Castore",
+      "12BET"
+    ],
     "title_sponsor": "AstroPay",
     "title_sponsor_value_m": 5,
     "social_media_followers_m": 10,
     "manager_changes_3yr": 3,
     "prev_season_position": 14,
-    "key_signings": ["Jorgen Strand Larsen", "Andre"],
-    "key_departures": ["Pedro Neto", "Max Kilman"],
+    "key_signings": [
+      "Jorgen Strand Larsen",
+      "Andre"
+    ],
+    "key_departures": [
+      "Pedro Neto",
+      "Max Kilman"
+    ],
     "squad_avg_age": 26.5
   },
   "Tottenham Hotspur": {
@@ -448,95 +611,135 @@
     "titles": 2,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["AIA", "Nike", "Cinch", "Getir"],
+    "major_sponsors": [
+      "AIA",
+      "Nike",
+      "Cinch",
+      "Getir"
+    ],
     "title_sponsor": "AIA",
     "title_sponsor_value_m": 50,
     "social_media_followers_m": 55,
     "manager_changes_3yr": 2,
     "prev_season_position": 5,
-    "key_signings": ["Dominic Solanke", "Wilson Odobert", "Archie Gray"],
-    "key_departures": ["Oliver Skipp", "Eric Dier"],
+    "key_signings": [
+      "Dominic Solanke",
+      "Wilson Odobert",
+      "Archie Gray"
+    ],
+    "key_departures": [
+      "Oliver Skipp",
+      "Eric Dier"
+    ],
     "squad_avg_age": 25.8
   },
-  "Leicester City": {
-    "valuation_m": 450,
-    "revenue_m": 160,
-    "wage_bill_m": 140,
-    "net_transfer_spend_m": 50,
-    "transfer_spend_m": 70,
-    "transfer_income_m": 20,
-    "owner": "King Power (Aiyawatt Srivaddhanaprabha)",
-    "owner_type": "Thai Conglomerate",
-    "manager": "Steve Cooper",
-    "stadium": "King Power Stadium",
-    "stadium_capacity": 32312,
-    "avg_attendance_pct": 98,
-    "founded": 1884,
-    "titles": 1,
-    "champions_league_titles": 0,
-    "ffp_status": "Under Investigation",
-    "major_sponsors": ["King Power", "Adidas", "FBS"],
-    "title_sponsor": "King Power",
-    "title_sponsor_value_m": 10,
-    "social_media_followers_m": 20,
-    "manager_changes_3yr": 3,
-    "prev_season_position": 0,
-    "key_signings": ["Fatawu Issahaku", "Oliver Skipp"],
-    "key_departures": ["Kiernan Dewsbury-Hall", "Kelechi Iheanacho"],
-    "squad_avg_age": 26.8
-  },
-  "Ipswich Town": {
-    "valuation_m": 300,
-    "revenue_m": 100,
-    "wage_bill_m": 80,
-    "net_transfer_spend_m": 60,
-    "transfer_spend_m": 70,
-    "transfer_income_m": 10,
-    "owner": "Gamechanger 20 Ltd (Kirchner family)",
-    "owner_type": "American Private Equity",
-    "manager": "Kieran McKenna",
-    "stadium": "Portman Road",
-    "stadium_capacity": 30311,
-    "avg_attendance_pct": 99,
-    "founded": 1878,
-    "titles": 1,
-    "champions_league_titles": 0,
-    "ffp_status": "Compliant",
-    "major_sponsors": ["Ed Sheeran (co-investor)", "Adidas", "Magical Vegas"],
-    "title_sponsor": "Ed Sheeran",
-    "title_sponsor_value_m": 3,
-    "social_media_followers_m": 3,
-    "manager_changes_3yr": 0,
-    "prev_season_position": 0,
-    "key_signings": ["Omari Hutchinson", "Liam Delap", "Sammie Szmodics"],
-    "key_departures": [],
-    "squad_avg_age": 25.2
-  },
-  "Southampton": {
-    "valuation_m": 350,
+  "Sunderland": {
+    "valuation_m": 400,
     "revenue_m": 120,
-    "wage_bill_m": 100,
-    "net_transfer_spend_m": 40,
-    "transfer_spend_m": 50,
+    "wage_bill_m": 80,
+    "net_transfer_spend_m": 30,
+    "transfer_spend_m": 40,
     "transfer_income_m": 10,
-    "owner": "Sport Republic (Dragan Solak)",
-    "owner_type": "Serbian Businessman",
-    "manager": "Ivan Juric",
-    "stadium": "St Mary's Stadium",
-    "stadium_capacity": 32384,
-    "avg_attendance_pct": 96,
-    "founded": 1885,
-    "titles": 0,
+    "owner": "Kyril Louis-Dreyfus",
+    "owner_type": "French Billionaire Family",
+    "manager": "Regis Le Bris",
+    "stadium": "Stadium of Light",
+    "stadium_capacity": 49000,
+    "avg_attendance_pct": 95,
+    "founded": 1879,
+    "titles": 6,
     "champions_league_titles": 0,
     "ffp_status": "Compliant",
-    "major_sponsors": ["Sportsbet.io", "Hummel", "Virgin Media"],
-    "title_sponsor": "Sportsbet.io",
+    "major_sponsors": [
+      "MansionBet",
+      "Nike",
+      "Tombola"
+    ],
+    "title_sponsor": "MansionBet",
     "title_sponsor_value_m": 5,
     "social_media_followers_m": 8,
-    "manager_changes_3yr": 4,
+    "manager_changes_3yr": 2,
     "prev_season_position": 0,
-    "key_signings": ["Aaron Ramsdale", "Flynn Downes", "Tyler Dibling"],
-    "key_departures": ["Che Adams", "James Ward-Prowse"],
-    "squad_avg_age": 25.0
+    "key_signings": [
+      "Jobe Bellingham",
+      "Chris Rigg"
+    ],
+    "key_departures": [
+      "Jack Clarke"
+    ],
+    "squad_avg_age": 24.5
+  },
+  "Leeds United": {
+    "valuation_m": 500,
+    "revenue_m": 140,
+    "wage_bill_m": 100,
+    "net_transfer_spend_m": 40,
+    "transfer_spend_m": 60,
+    "transfer_income_m": 20,
+    "owner": "49ers Enterprises",
+    "owner_type": "American Sports Group",
+    "manager": "Daniel Farke",
+    "stadium": "Elland Road",
+    "stadium_capacity": 37890,
+    "avg_attendance_pct": 99,
+    "founded": 1919,
+    "titles": 3,
+    "champions_league_titles": 0,
+    "ffp_status": "Compliant",
+    "major_sponsors": [
+      "BOXT",
+      "Adidas",
+      "SBOTOP"
+    ],
+    "title_sponsor": "BOXT",
+    "title_sponsor_value_m": 8,
+    "social_media_followers_m": 12,
+    "manager_changes_3yr": 1,
+    "prev_season_position": 0,
+    "key_signings": [
+      "Largie Ramazani",
+      "Manor Solomon"
+    ],
+    "key_departures": [
+      "Crysencio Summerville",
+      "Archie Gray"
+    ],
+    "squad_avg_age": 25.5
+  },
+  "Burnley": {
+    "valuation_m": 300,
+    "revenue_m": 100,
+    "wage_bill_m": 70,
+    "net_transfer_spend_m": 20,
+    "transfer_spend_m": 30,
+    "transfer_income_m": 10,
+    "owner": "ALK Capital",
+    "owner_type": "American Investment Group",
+    "manager": "Scott Parker",
+    "stadium": "Turf Moor",
+    "stadium_capacity": 21944,
+    "avg_attendance_pct": 97,
+    "founded": 1882,
+    "titles": 2,
+    "champions_league_titles": 0,
+    "ffp_status": "Compliant",
+    "major_sponsors": [
+      "w88",
+      "Umbro"
+    ],
+    "title_sponsor": "w88",
+    "title_sponsor_value_m": 5,
+    "social_media_followers_m": 5,
+    "manager_changes_3yr": 2,
+    "prev_season_position": 0,
+    "key_signings": [
+      "Luca Koleosho",
+      "Sander Berge"
+    ],
+    "key_departures": [
+      "Nathan Collins",
+      "James Trafford"
+    ],
+    "squad_avg_age": 26.0
   }
 }

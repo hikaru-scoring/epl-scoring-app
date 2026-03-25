@@ -24,7 +24,7 @@ LOGIC_DESC = {
 
 FINANCIALS_FILE = os.path.join(os.path.dirname(__file__), "club_financials.json")
 
-ESPN_PL_STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/eng.1/standings?season=2024"
+ESPN_PL_STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/eng.1/standings?season=2025"
 
 
 def _load_financials():

@@ -127,7 +127,7 @@ with tab_dash:
     financial health, on-pitch ROI, transfer efficiency, revenue strength, and stability.
     Compare clubs side by side. A higher score means the club is in a stronger position as a business.</p>
     """, unsafe_allow_html=True)
-    st.caption(f"{len(all_clubs)} clubs scored for 2024-25 season")
+    st.caption(f"{len(all_clubs)} clubs scored for 2025-26 season")
 
     # League Health Score
     avg_score = int(sum(int(c["total"]) for c in all_clubs) / len(all_clubs))
