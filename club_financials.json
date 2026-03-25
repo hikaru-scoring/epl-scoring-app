@@ -28,11 +28,10 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 1,
     "key_signings": [
-      "Omar Marmoush",
-      "Milos Kerkez"
+      "Jeremy Jacquet (Rennes, Åí82M, joins July)"
     ],
     "key_departures": [
-      "Darwin Nunez (loan)"
+      "Lewis Koumas (loan to Hull City)"
     ],
     "squad_avg_age": 26.2
   },
@@ -65,12 +64,11 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 2,
     "key_signings": [
-      "Sverre Nypan",
-      "Randal Kolo Muani (loan)"
+      "Evan Mooney (St Mirren)"
     ],
     "key_departures": [
-      "Reiss Nelson (loan)",
-      "Nuno Tavares"
+      "Oleksandr Zinchenko (Ajax)",
+      "Ethan Nwaneri (loan to Marseille)"
     ],
     "squad_avg_age": 25.8
   },
@@ -103,13 +101,14 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 3,
     "key_signings": [
-      "Abdukodir Khusanov",
-      "Vitor Reis",
-      "Omar Marmoush"
+      "Antoine Semenyo (Bournemouth, Åí86M)",
+      "Marc Guehi (Crystal Palace)",
+      "Sverre Nypan (loan recall)"
     ],
     "key_departures": [
-      "Joao Cancelo",
-      "Kalvin Phillips"
+      "Oscar Bobb (Fulham)",
+      "Kalvin Phillips (loan to Sheffield Utd)",
+      "Stefan Ortega (Nott. Forest)"
     ],
     "squad_avg_age": 27.1
   },
@@ -142,12 +141,12 @@
     "manager_changes_3yr": 4,
     "prev_season_position": 4,
     "key_signings": [
-      "Tosin Adarabioyo",
-      "Kellyman"
+      "Yisa Alao (Sheffield Wednesday)"
     ],
     "key_departures": [
-      "Mykhailo Mudryk (suspended)",
-      "Armando Broja (loan)"
+      "Raheem Sterling (released)",
+      "Axel Disasi (loan to West Ham)",
+      "Leo Castledine (Middlesbrough)"
     ],
     "squad_avg_age": 24.5
   },
@@ -179,13 +178,9 @@
     "social_media_followers_m": 30,
     "manager_changes_3yr": 0,
     "prev_season_position": 5,
-    "key_signings": [
-      "Lloyd Kelly",
-      "Lewis Hall (permanent)"
-    ],
+    "key_signings": [],
     "key_departures": [
-      "Elliot Anderson",
-      "Ryan Fraser"
+      "Harrison Ashby (loan to Bradford)"
     ],
     "squad_avg_age": 26.5
   },
@@ -217,12 +212,12 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 6,
     "key_signings": [
-      "Donyell Malen",
-      "Andres Garcia"
+      "Tammy Abraham (Besiktas, Åí18.3M)",
+      "Douglas Luiz (loan from Juventus)"
     ],
     "key_departures": [
-      "Jhon Duran",
-      "Cameron Archer"
+      "Donyell Malen (AS Roma)",
+      "Samuel Iling Jr (loan to West Brom)"
     ],
     "squad_avg_age": 26.0
   },
@@ -254,12 +249,12 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 7,
     "key_signings": [
-      "Jota Silva",
-      "Morato"
+      "Lorenzo Lucca (loan from Napoli)",
+      "Luca Netz (Borussia Monchengladbach)",
+      "Stefan Ortega (Man City)"
     ],
     "key_departures": [
-      "Moussa Niakhate",
-      "Emmanuel Dennis"
+      "Arnaud Kalimuendo (loan to Frankfurt)"
     ],
     "squad_avg_age": 26.3
   },
@@ -291,12 +286,12 @@
     "manager_changes_3yr": 3,
     "prev_season_position": 8,
     "key_signings": [
-      "Diego Gomez",
-      "Tariq Lamptey (renewed)"
+      "Pascal Gross (Borussia Dortmund)",
+      "Matt O Riley (loan recall from Marseille)"
     ],
     "key_departures": [
-      "Deniz Undav (sold)",
-      "Levi Colwill"
+      "Facundo Buonanotte (loan to Leeds)",
+      "Brajan Gruda (loan to RB Leipzig)"
     ],
     "squad_avg_age": 25.0
   },
@@ -327,11 +322,13 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 9,
     "key_signings": [
-      "Julio Soler",
-      "Dean Huijsen"
+      "Rayan (Vasco da Gama, Åí24.7M)",
+      "Christos Mandas (loan from Lazio)",
+      "Fraser Forster (free)"
     ],
     "key_departures": [
-      "Marcos Senesi (loan)"
+      "Antoine Semenyo (Man City, Åí86M)",
+      "Romain Faivre (Auxerre)"
     ],
     "squad_avg_age": 25.5
   },
@@ -363,11 +360,11 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 10,
     "key_signings": [
-      "Fabio Carvalho (permanent)",
-      "Paris Lee"
+      "Kaye Furo (Club Brugge)"
     ],
     "key_departures": [
-      "Kristoffer Ajer"
+      "Paris Maghoma (Norwich, permanent)",
+      "Gustavo Nunes (loan to Swansea)"
     ],
     "squad_avg_age": 26.0
   },
@@ -399,11 +396,10 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 11,
     "key_signings": [
-      "Joachim Andersen",
-      "Sander Berge"
+      "Oscar Bobb (Man City, Åí27M)"
     ],
     "key_departures": [
-      "Bobby De Cordova-Reid"
+      "Adama Traore (West Ham)"
     ],
     "squad_avg_age": 26.8
   },
@@ -435,12 +431,12 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 12,
     "key_signings": [
-      "Romain Esse",
-      "Trevoh Chalobah (loan)"
+      "Brennan Johnson (Tottenham, Åí35M)",
+      "Jorgen Strand Larsen (Wolves, Åí48M)"
     ],
     "key_departures": [
-      "Jordan Ayew",
-      "James Tomkins"
+      "Marc Guehi (Man City)",
+      "Jesurun Rak-Sakyi (loan to Stoke)"
     ],
     "squad_avg_age": 26.5
   },
@@ -472,13 +468,9 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 13,
     "key_signings": [
-      "Armando Broja (loan)",
-      "Jake O Brien"
+      "Tyrique George (loan from Chelsea)"
     ],
-    "key_departures": [
-      "Neal Maupay",
-      "Mason Holgate"
-    ],
+    "key_departures": [],
     "squad_avg_age": 27.0
   },
   "West Ham United": {
@@ -509,12 +501,14 @@
     "manager_changes_3yr": 2,
     "prev_season_position": 14,
     "key_signings": [
-      "Andre (from Fluminense)",
-      "Carlos Soler"
+      "Taty Castellanos (Lazio)",
+      "Adama Traore (Fulham)",
+      "Axel Disasi (loan from Chelsea)"
     ],
     "key_departures": [
-      "Said Benrahma",
-      "Nayef Aguerd"
+      "Niclas Fullkrug (loan to AC Milan)",
+      "Lucas Paqueta (Flamengo)",
+      "James Ward-Prowse (loan to Burnley)"
     ],
     "squad_avg_age": 27.2
   },
@@ -546,13 +540,10 @@
     "social_media_followers_m": 200,
     "manager_changes_3yr": 3,
     "prev_season_position": 15,
-    "key_signings": [
-      "Patrick Dorgu",
-      "Lecce fullback"
-    ],
+    "key_signings": [],
     "key_departures": [
-      "Marcus Rashford (loan)",
-      "Casemiro"
+      "Harry Amass (loan to Norwich)",
+      "Sekou Kone (loan to Lausanne)"
     ],
     "squad_avg_age": 25.5
   },
@@ -584,12 +575,12 @@
     "manager_changes_3yr": 3,
     "prev_season_position": 16,
     "key_signings": [
-      "Emmanuel Agbadou",
-      "Rodrigo Gomes"
+      "Adam Armstrong (Southampton)",
+      "Angel Gomes (loan from Marseille)"
     ],
     "key_departures": [
-      "Hwang Hee-chan",
-      "Daniel Podence"
+      "Jorgen Strand Larsen (Crystal Palace, Åí48M)",
+      "Ki-Jana Hoever (loan to Sheffield Utd)"
     ],
     "squad_avg_age": 26.5
   },
@@ -622,12 +613,12 @@
     "manager_changes_3yr": 2,
     "prev_season_position": 17,
     "key_signings": [
-      "Mathys Tel (loan)",
-      "Antonin Kinsky"
+      "Conor Gallagher (Atletico Madrid, Åí32M)",
+      "Souza (Santos)"
     ],
     "key_departures": [
-      "Giovani Lo Celso",
-      "Pierre-Emile Hojbjerg"
+      "Brennan Johnson (Crystal Palace, Åí35M)",
+      "Manor Solomon (loan to Fiorentina)"
     ],
     "squad_avg_age": 25.8
   },
@@ -659,11 +650,14 @@
     "manager_changes_3yr": 2,
     "prev_season_position": 0,
     "key_signings": [
-      "Milan Aleksic",
-      "Aaron Connolly"
+      "Melker Ellborg (Malmo)",
+      "Nilson Angulo (Anderlecht)",
+      "Jocelin Ta Bi (Maccabi Netanya)"
     ],
     "key_departures": [
-      "Jack Clarke (sold to Ipswich)"
+      "Dan Neil (loan to Ipswich)",
+      "Patrick Roberts (Birmingham)",
+      "Simon Adingra (loan to Monaco)"
     ],
     "squad_avg_age": 24.5
   },
@@ -695,12 +689,10 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 0,
     "key_signings": [
-      "Isaac Schmidt",
-      "Joe Rodon (permanent)"
+      "Facundo Buonanotte (loan from Brighton)"
     ],
     "key_departures": [
-      "Georginio Rutter",
-      "Glen Kamara"
+      "Jack Harrison (loan to Fiorentina)"
     ],
     "squad_avg_age": 25.5
   },
@@ -731,12 +723,13 @@
     "manager_changes_3yr": 2,
     "prev_season_position": 0,
     "key_signings": [
-      "Josh Brownhill (renewed)",
-      "Oliver Sonne"
+      "James Ward-Prowse (loan from West Ham)",
+      "Cameron Scott (free)"
     ],
     "key_departures": [
-      "Connor Roberts",
-      "Johann Berg Gudmundsson"
+      "Luca Koleosho (loan to Paris FC)",
+      "Oliver Sonne (loan to Sparta Prague)",
+      "Manuel Benson (Maccabi Haifa)"
     ],
     "squad_avg_age": 26.0
   }
