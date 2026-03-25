@@ -28,7 +28,7 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 1,
     "key_signings": [
-      "Jeremy Jacquet (Rennes, Åí82M, joins July)"
+      "Jeremy Jacquet (Rennes, GBP 82M, joins July)"
     ],
     "key_departures": [
       "Lewis Koumas (loan to Hull City)"
@@ -101,7 +101,7 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 3,
     "key_signings": [
-      "Antoine Semenyo (Bournemouth, Åí86M)",
+      "Antoine Semenyo (Bournemouth, GBP 86M)",
       "Marc Guehi (Crystal Palace)",
       "Sverre Nypan (loan recall)"
     ],
@@ -212,7 +212,7 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 6,
     "key_signings": [
-      "Tammy Abraham (Besiktas, Åí18.3M)",
+      "Tammy Abraham (Besiktas, GBP 18.3M)",
       "Douglas Luiz (loan from Juventus)"
     ],
     "key_departures": [
@@ -322,12 +322,12 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 9,
     "key_signings": [
-      "Rayan (Vasco da Gama, Åí24.7M)",
+      "Rayan (Vasco da Gama, GBP 24.7M)",
       "Christos Mandas (loan from Lazio)",
       "Fraser Forster (free)"
     ],
     "key_departures": [
-      "Antoine Semenyo (Man City, Åí86M)",
+      "Antoine Semenyo (Man City, GBP 86M)",
       "Romain Faivre (Auxerre)"
     ],
     "squad_avg_age": 25.5
@@ -396,7 +396,7 @@
     "manager_changes_3yr": 0,
     "prev_season_position": 11,
     "key_signings": [
-      "Oscar Bobb (Man City, Åí27M)"
+      "Oscar Bobb (Man City, GBP 27M)"
     ],
     "key_departures": [
       "Adama Traore (West Ham)"
@@ -431,8 +431,8 @@
     "manager_changes_3yr": 1,
     "prev_season_position": 12,
     "key_signings": [
-      "Brennan Johnson (Tottenham, Åí35M)",
-      "Jorgen Strand Larsen (Wolves, Åí48M)"
+      "Brennan Johnson (Tottenham, GBP 35M)",
+      "Jorgen Strand Larsen (Wolves, GBP 48M)"
     ],
     "key_departures": [
       "Marc Guehi (Man City)",
@@ -579,7 +579,7 @@
       "Angel Gomes (loan from Marseille)"
     ],
     "key_departures": [
-      "Jorgen Strand Larsen (Crystal Palace, Åí48M)",
+      "Jorgen Strand Larsen (Crystal Palace, GBP 48M)",
       "Ki-Jana Hoever (loan to Sheffield Utd)"
     ],
     "squad_avg_age": 26.5
@@ -613,11 +613,11 @@
     "manager_changes_3yr": 2,
     "prev_season_position": 17,
     "key_signings": [
-      "Conor Gallagher (Atletico Madrid, Åí32M)",
+      "Conor Gallagher (Atletico Madrid, GBP 32M)",
       "Souza (Santos)"
     ],
     "key_departures": [
-      "Brennan Johnson (Crystal Palace, Åí35M)",
+      "Brennan Johnson (Crystal Palace, GBP 35M)",
       "Manor Solomon (loan to Fiorentina)"
     ],
     "squad_avg_age": 25.8
