@@ -228,8 +228,10 @@ with tab_dash:
                 delta_html = f'<div style="font-size:0.8em; font-weight:700; color:{d_color};">{d_icon} {m["delta"]:+d}</div>'
                 break
 
+        logo_html = f'<img src="{c["logo"]}" style="width:40px;height:40px;margin-bottom:6px;">' if c.get("logo") else ""
         cols[idx % 5].markdown(f"""
         <div style="background:#fff; padding:18px; border-radius:14px; border:1px solid #e2e8f0; text-align:center; margin-bottom:10px; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+            {logo_html}
             <div style="font-size:0.8em; font-weight:600; color:#64748b; margin-bottom:6px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{c['name']}</div>
             <div style="font-size:2em; font-weight:900; color:{sc_color}; line-height:1;">{score}</div>
             <div style="font-size:0.7em; color:#ccc;">/ 1000</div>
