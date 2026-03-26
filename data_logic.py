@@ -116,10 +116,10 @@ def _score_financial_health(fin):
     return _clamp(int(wage_score + val_score + ffp_score + sus_score))
 
 
-def _score_on_pitch_roi(fin, standing):
-    """Score On-Pitch ROI (200 pts max)."""
+def _score_on_pitch_roi(fin, standing, wage_rank=None):
+    """Score On-Pitch ROI (200 pts max). Returns int or None if standing unavailable."""
     if not standing:
-        return 100
+        return None
 
     # Points per £M wage (max 80)
     ppw = standing["points"] / max(fin["wage_bill_m"], 1) * 100
@@ -130,12 +130,24 @@ def _score_on_pitch_roi(fin, standing):
 
     # Position vs wage rank efficiency (max 30)
     # If finishing higher than wage rank = efficient
-    wage_rank_bonus = 15  # neutral
+    if wage_rank is not None:
+        rank_diff = wage_rank - standing["position"]  # positive = outperforming spend
+        wage_rank_bonus = _clamp(15 + rank_diff * 3, 0, 30)
+    else:
+        wage_rank_bonus = None
 
     # Goal difference efficiency (max 30)
     gd_score = _clamp((standing["goal_difference"] + 60) / 120 * 30, 0, 30)
 
-    return _clamp(int(ppw_score + pos_score + wage_rank_bonus + gd_score))
+    components = [ppw_score, pos_score, gd_score]
+    if wage_rank_bonus is not None:
+        components.append(wage_rank_bonus)
+    else:
+        # Scale the 170 available to 200
+        raw = sum(components)
+        return _clamp(int(raw / 170 * 200))
+
+    return _clamp(int(sum(components)))
 
 
 def _score_transfer_efficiency(fin, standing):
@@ -237,6 +249,11 @@ def score_all_clubs():
     """Score all 20 PL clubs and return sorted list."""
     financials = _load_financials()
     standings = _fetch_standings()
+
+    # Build wage rank lookup (1 = highest wage bill)
+    wage_sorted = sorted(financials.items(), key=lambda x: x[1].get("wage_bill_m", 0), reverse=True)
+    wage_ranks = {name: rank + 1 for rank, (name, _) in enumerate(wage_sorted)}
+
     results = []
 
     for club_name, fin in financials.items():
@@ -255,23 +272,34 @@ def score_all_clubs():
                     standing = st
                     break
 
+        wage_rank = wage_ranks.get(club_name)
+
         fh = _score_financial_health(fin)
-        opr = _score_on_pitch_roi(fin, standing)
+        opr = _score_on_pitch_roi(fin, standing, wage_rank=wage_rank)
         te = _score_transfer_efficiency(fin, standing)
         rs = _score_revenue_strength(fin)
         sg = _score_stability_governance(fin)
-        total = fh + opr + te + rs + sg
+
+        all_axes = {
+            "Financial Health": fh,
+            "On-Pitch ROI": opr,
+            "Transfer Efficiency": te,
+            "Revenue Strength": rs,
+            "Stability & Governance": sg,
+        }
+        unavailable_axes = [k for k, v in all_axes.items() if v is None]
+        available = {k: v for k, v in all_axes.items() if v is not None}
+        if available:
+            raw_sum = sum(available.values())
+            total = round(raw_sum / len(available) * 5)
+        else:
+            total = 0
 
         results.append({
             "name": club_name,
             "total": total,
-            "axes": {
-                "Financial Health": fh,
-                "On-Pitch ROI": opr,
-                "Transfer Efficiency": te,
-                "Revenue Strength": rs,
-                "Stability & Governance": sg,
-            },
+            "axes": all_axes,
+            "unavailable_axes": unavailable_axes,
             "standing": standing or {},
             "financials": fin,
             "logo": standing["logo"] if standing else "",
