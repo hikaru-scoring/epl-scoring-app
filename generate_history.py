@@ -47,6 +47,10 @@ def main():
             print(f"No financial data for {season_key}, skipping")
             continue
 
+        # Build wage rank lookup for this season (1 = highest wage bill)
+        wage_sorted = sorted(season_fin.items(), key=lambda x: x[1].get("wage_bill_m", 0), reverse=True)
+        wage_ranks = {name: rank + 1 for rank, (name, _) in enumerate(wage_sorted)}
+
         day_scores = {}
         for team_name, standing in season_standings.items():
             fin = season_fin.get(team_name)
@@ -62,8 +66,10 @@ def main():
             fin.setdefault("stadium_capacity", 30000)
             fin.setdefault("prev_season_position", 10)
 
+            wage_rank = wage_ranks.get(team_name)
+
             fh = _score_financial_health(fin)
-            opr = _score_on_pitch_roi(fin, standing)
+            opr = _score_on_pitch_roi(fin, standing, wage_rank=wage_rank)
             te = _score_transfer_efficiency(fin, standing)
             rs = _score_revenue_strength(fin)
             sg = _score_stability_governance(fin)
