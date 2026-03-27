@@ -91,7 +91,7 @@ def generate_excel(data, axes_labels, logic_desc, snapshot=None):
 
 # ── Page config ──
 APP_TITLE = "EPL-1000 — Premier League Club Scoring Platform"
-st.set_page_config(page_title=APP_TITLE, layout="wide")
+st.set_page_config(page_title=APP_TITLE, page_icon="⚽", layout="wide")
 inject_css()
 st.markdown("""
 <style>
