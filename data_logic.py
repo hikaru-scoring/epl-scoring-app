@@ -15,11 +15,11 @@ AXES_LABELS = [
 ]
 
 LOGIC_DESC = {
-    "Financial Health": "Valuation growth, wage-to-revenue ratio, FFP compliance, debt management",
-    "On-Pitch ROI": "Points per £M wage spend, league position vs wage rank, goal difference efficiency",
-    "Transfer Efficiency": "Net spend vs position improvement, sell-on profit, squad value growth",
-    "Revenue Strength": "Total revenue, commercial income, matchday income, broadcast income diversity",
-    "Stability & Governance": "Manager tenure, ownership stability, fan engagement, stadium utilization",
+    "Financial Health": "Wage ratio, valuation, FFP compliance",
+    "On-Pitch ROI": "Points per wage spend vs league position",
+    "Transfer Efficiency": "Net spend vs position improvement",
+    "Revenue Strength": "Total revenue and commercial diversity",
+    "Stability & Governance": "Manager tenure and ownership stability",
 }
 
 FINANCIALS_FILE = os.path.join(os.path.dirname(__file__), "club_financials.json")
