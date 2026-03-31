@@ -1,18 +1,31 @@
 name: Record Daily EPL-1000 Scores
+
 on:
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   record:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - run: pip install requests
+
       - run: python record_scores.py
+
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Daily score update: ${{ github.run_id }}"
+          file_pattern: scores_history.json
